@@ -1,5 +1,5 @@
 //
-//  DisneyVC.swift
+//  A5VC.swift
 //  losAngelesPlaces
 //
 //  Created by Andrew Foster on 3/31/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DisneyVC: UIViewController {
+class A5VC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,8 +18,8 @@ class DisneyVC: UIViewController {
 
     @IBAction func openMap(_ sender: Any) {
         
-        let latitude = 33.812072
-        let longitude = -117.9890143
+        let latitude = 33.99083
+        let longitude = -118.45917
         let strURL = "comgooglemaps://comgooglemaps://?saddr=&daddr=\(Float(latitude)),\(Float(longitude))&directionsmode=driving"
         
         if let url = URL(string: strURL){ UIApplication.shared.open(url as URL, options: [:], completionHandler: nil) }
