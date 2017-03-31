@@ -1,5 +1,5 @@
 //
-//  LandmarksVC.swift
+//  HollywoodVC.swift
 //  losAngelesPlaces
 //
 //  Created by Andrew Foster on 3/31/17.
@@ -8,11 +8,11 @@
 
 import UIKit
 
-class LandmarksVC: UIViewController {
+class HollywoodVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         self.navigationController?.isNavigationBarHidden = false
     }
 }

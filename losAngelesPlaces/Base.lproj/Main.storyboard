@@ -126,7 +126,7 @@
                         <viewControllerLayoutGuide type="top" id="eTo-03-c7d"/>
                         <viewControllerLayoutGuide type="bottom" id="2LC-1h-Chm"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="GfX-ea-b8k">
+                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="GfX-ea-b8k">
                         <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -137,9 +137,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="358" height="114.33333333333334"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
-                                        <state key="normal" title="Landmark1" backgroundImage="disney">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
+                                        <state key="normal" title="Disneyland" backgroundImage="disneyland"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                 <real key="value" value="15"/>
@@ -153,7 +151,7 @@
                                         <rect key="frame" x="0.0" y="129.33333333333331" width="358" height="114.33333333333334"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
-                                        <state key="normal" title="Landmark2" backgroundImage="disney">
+                                        <state key="normal" title="Walt disney concert hall" backgroundImage="disney">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -169,7 +167,7 @@
                                         <rect key="frame" x="0.0" y="258.66666666666669" width="358" height="114.66666666666663"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
-                                        <state key="normal" title="Landmark3" backgroundImage="disney">
+                                        <state key="normal" title="little tokyo" backgroundImage="disney">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -177,12 +175,15 @@
                                                 <real key="value" value="15"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="bfc-ae-gLh" kind="show" id="gEi-0e-8uK"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" clipsSubviews="YES" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OpX-IX-jPA" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="388.33333333333337" width="358" height="114.33333333333331"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
-                                        <state key="normal" title="Landmark4" backgroundImage="disney">
+                                        <state key="normal" title="Dowmtown" backgroundImage="disney">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -190,12 +191,15 @@
                                                 <real key="value" value="15"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="JBW-JX-jcW" kind="show" id="fWa-KL-Rlo"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" clipsSubviews="YES" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jq-kd-WUc" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="517.66666666666652" width="358" height="114.33333333333337"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
-                                        <state key="normal" title="Landmark5" backgroundImage="disney">
+                                        <state key="normal" title="getty center" backgroundImage="disney">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -203,6 +207,9 @@
                                                 <real key="value" value="15"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="ys0-tJ-ffP" kind="show" id="XkO-e4-A59"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -221,7 +228,7 @@
             </objects>
             <point key="canvasLocation" x="2422" y="-897"/>
         </scene>
-        <!--Place-->
+        <!--DisneyVC-->
         <scene sceneID="KfH-Ku-daQ">
             <objects>
                 <viewController automaticallyAdjustsScrollViewInsets="NO" id="7hd-aG-L2u" customClass="DisneyVC" customModule="losAngelesPlaces" customModuleProvider="target" sceneMemberID="viewController">
@@ -233,26 +240,26 @@
                         <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="disney" translatesAutoresizingMaskIntoConstraints="NO" id="Zjd-zb-diA">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="disneyland" translatesAutoresizingMaskIntoConstraints="NO" id="Zjd-zb-diA">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="XJ7-d9-hWZ"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bvW-CI-mhS">
-                                <rect key="frame" x="165" y="38.666666666666671" width="84.666666666666657" height="43.000000000000014"/>
-                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Disneyland" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bvW-CI-mhS">
+                                <rect key="frame" x="80" y="29.666666666666671" width="254.66666666666669" height="62"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="52"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RSi-8Y-4eQ" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
                                 <rect key="frame" x="8" y="128" width="398" height="418"/>
                                 <subviews>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iUh-Du-wUB">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="iUh-Du-wUB">
                                         <rect key="frame" x="8" y="8" width="382" height="402"/>
-                                        <string key="text">A tourist attraction is a place of interest where tourists visit, typically for its inherent or exhibited natural or cultural value, historical significance, natural or built beauty, offering leisure, adventure and amusement.</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <string key="text">Would you like to plan a perfect day trip in California involving your children?  Disneyland proves to be the best option to you offering you ultimate features in an ideal manner that you expect accordingly. Get access to the premium activities for the sake of your children due to which best features are experienced with utmost flexibility. Disneyland Park, originally Disneyland, is the first of two theme parks built at the Disneyland Resort in Anaheim, California, opened on July 17, 1955. It is the only theme park designed and built under the direct supervision of Walt Disney.</string>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
+                                        <color key="textColor" red="0.22029663705583757" green="0.22029663705583757" blue="0.22029663705583757" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -283,14 +290,17 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="openMap:" destination="7hd-aG-L2u" eventType="touchUpInside" id="Uig-qd-WgQ"/>
+                                </connections>
                             </button>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mt6-Ij-Pw2" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
                                 <rect key="frame" x="8" y="554" width="398" height="60"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adress:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vtk-8e-3co">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adress: 1313 Disneyland Dr, Anaheim, CA 92802, USA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vtk-8e-3co">
                                         <rect key="frame" x="8" y="8" width="382" height="44"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" red="0.097361508113517042" green="0.29944455707260342" blue="0.56153858118223354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -326,7 +336,7 @@
                             <constraint firstItem="bvW-CI-mhS" firstAttribute="centerX" secondItem="Zjd-zb-diA" secondAttribute="centerX" id="zn2-Sa-T5h"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Place" id="Apj-mq-wDE"/>
+                    <navigationItem key="navigationItem" id="Apj-mq-wDE"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vd9-uB-QaU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -335,7 +345,7 @@
         <!--Activities-->
         <scene sceneID="aRB-2K-e3v">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="aNH-7W-I5n" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="aNH-7W-I5n" customClass="ActivityVC" customModule="losAngelesPlaces" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="BLW-dX-60X"/>
                         <viewControllerLayoutGuide type="bottom" id="N3P-zR-bNw"/>
@@ -351,7 +361,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="358" height="114.33333333333334"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
-                                        <state key="normal" title="Landmark1" backgroundImage="disney">
+                                        <state key="normal" title="Griffin Park" backgroundImage="disney">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -364,7 +374,7 @@
                                         <rect key="frame" x="0.0" y="129.33333333333331" width="358" height="114.33333333333334"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
-                                        <state key="normal" title="Landmark2" backgroundImage="disney">
+                                        <state key="normal" title="santa monica pier" backgroundImage="disney">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -377,7 +387,7 @@
                                         <rect key="frame" x="0.0" y="258.66666666666669" width="358" height="114.66666666666663"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
-                                        <state key="normal" title="Landmark3" backgroundImage="disney">
+                                        <state key="normal" title="dodger stadium" backgroundImage="disney">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -390,7 +400,7 @@
                                         <rect key="frame" x="0.0" y="388.33333333333337" width="358" height="114.33333333333331"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
-                                        <state key="normal" title="Landmark4" backgroundImage="disney">
+                                        <state key="normal" title="universal sity walk" backgroundImage="disney">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -403,7 +413,7 @@
                                         <rect key="frame" x="0.0" y="517.66666666666652" width="358" height="114.33333333333337"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
-                                        <state key="normal" title="Landmark5" backgroundImage="disney">
+                                        <state key="normal" title="venice beach" backgroundImage="disney">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -432,7 +442,7 @@
         <!--Culture-->
         <scene sceneID="UBs-aN-pYx">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="vme-LV-nEQ" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="vme-LV-nEQ" customClass="CultureVC" customModule="losAngelesPlaces" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vBz-ZN-wnV"/>
                         <viewControllerLayoutGuide type="bottom" id="K90-PU-kXH"/>
@@ -448,7 +458,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="358" height="114.33333333333334"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
-                                        <state key="normal" title="Landmark1" backgroundImage="disney">
+                                        <state key="normal" title="museum natural history" backgroundImage="disney">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -461,7 +471,7 @@
                                         <rect key="frame" x="0.0" y="129.33333333333331" width="358" height="114.33333333333334"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
-                                        <state key="normal" title="Landmark2" backgroundImage="disney">
+                                        <state key="normal" title="the broad" backgroundImage="disney">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -474,7 +484,7 @@
                                         <rect key="frame" x="0.0" y="258.66666666666669" width="358" height="114.66666666666663"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
-                                        <state key="normal" title="Landmark3" backgroundImage="disney">
+                                        <state key="normal" title="japanese museum" backgroundImage="disney">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -487,7 +497,7 @@
                                         <rect key="frame" x="0.0" y="388.33333333333337" width="358" height="114.33333333333331"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
-                                        <state key="normal" title="Landmark4" backgroundImage="disney">
+                                        <state key="normal" title="griffin observatory" backgroundImage="disney">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -500,7 +510,7 @@
                                         <rect key="frame" x="0.0" y="517.66666666666652" width="358" height="114.33333333333337"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
-                                        <state key="normal" title="Landmark5" backgroundImage="disney">
+                                        <state key="normal" title="california science center" backgroundImage="disney">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -529,7 +539,7 @@
         <!--Hollywood-->
         <scene sceneID="4i7-XJ-sQu">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="5Uh-Rq-6vh" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="5Uh-Rq-6vh" customClass="HollywoodVC" customModule="losAngelesPlaces" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qoo-j4-1zO"/>
                         <viewControllerLayoutGuide type="bottom" id="Qnq-1y-cId"/>
@@ -545,7 +555,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="358" height="114.33333333333334"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
-                                        <state key="normal" title="Landmark1" backgroundImage="disney">
+                                        <state key="normal" title="Universal Studios" backgroundImage="disney">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -558,7 +568,7 @@
                                         <rect key="frame" x="0.0" y="129.33333333333331" width="358" height="114.33333333333334"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
-                                        <state key="normal" title="Landmark2" backgroundImage="disney">
+                                        <state key="normal" title="Walk of fame" backgroundImage="disney">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -571,7 +581,7 @@
                                         <rect key="frame" x="0.0" y="258.66666666666669" width="358" height="114.66666666666663"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
-                                        <state key="normal" title="Landmark3" backgroundImage="disney">
+                                        <state key="normal" title="Sign" backgroundImage="disney">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -584,7 +594,7 @@
                                         <rect key="frame" x="0.0" y="388.33333333333337" width="358" height="114.33333333333331"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
-                                        <state key="normal" title="Landmark4" backgroundImage="disney">
+                                        <state key="normal" title="Shopping" backgroundImage="disney">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -597,7 +607,7 @@
                                         <rect key="frame" x="0.0" y="517.66666666666652" width="358" height="114.33333333333337"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
-                                        <state key="normal" title="Landmark5" backgroundImage="disney">
+                                        <state key="normal" title="home tours" backgroundImage="disney">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -621,7 +631,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="122-fS-ygn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2422" y="1410"/>
+            <point key="canvasLocation" x="2422" y="1273"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="htZ-Bd-IbJ">
@@ -646,10 +656,10 @@
             </objects>
             <point key="canvasLocation" x="136.23188405797103" y="136.95652173913044"/>
         </scene>
-        <!--Place-->
+        <!--View Controller-->
         <scene sceneID="kKm-0b-3pA">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="EXB-mr-8Lq" customClass="DisneyVC" customModule="losAngelesPlaces" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="EXB-mr-8Lq" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qxK-fc-z4Y"/>
                         <viewControllerLayoutGuide type="bottom" id="ZuO-8t-p6N"/>
@@ -665,19 +675,19 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sQn-aR-0aJ">
-                                <rect key="frame" x="165" y="38.666666666666671" width="84.666666666666657" height="43.000000000000014"/>
-                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="36"/>
+                                <rect key="frame" x="146.66666666666669" y="29.333333333333329" width="121.66666666666669" height="62"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="52"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E1K-QU-phP" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
                                 <rect key="frame" x="8" y="128" width="398" height="418"/>
                                 <subviews>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lFO-If-J85">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="lFO-If-J85">
                                         <rect key="frame" x="8" y="8" width="382" height="402"/>
                                         <string key="text">A tourist attraction is a place of interest where tourists visit, typically for its inherent or exhibited natural or cultural value, historical significance, natural or built beauty, offering leisure, adventure and amusement.</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
+                                        <color key="textColor" red="0.2202966371" green="0.2202966371" blue="0.2202966371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -712,10 +722,10 @@
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ebn-dT-DAL" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
                                 <rect key="frame" x="8" y="554" width="398" height="60"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adress:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P06-oe-lbI">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adress:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P06-oe-lbI">
                                         <rect key="frame" x="8" y="8" width="382" height="44"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" red="0.097361508109999995" green="0.29944455710000001" blue="0.5615385812" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -751,15 +761,349 @@
                             <constraint firstItem="ebn-dT-DAL" firstAttribute="leading" secondItem="nKt-dL-Ri9" secondAttribute="leading" constant="8" id="siY-pa-DVy"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Place" id="zNk-OE-3W9"/>
+                    <navigationItem key="navigationItem" id="zNk-OE-3W9"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZzA-Vp-CDT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3988" y="-899"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="lBn-zI-ff3">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="bfc-ae-gLh" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gbO-oj-knX"/>
+                        <viewControllerLayoutGuide type="bottom" id="BA3-gt-zD6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YOg-Bc-kb6">
+                        <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="disneyland" translatesAutoresizingMaskIntoConstraints="NO" id="eYE-PF-pvW">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="2Hz-P2-99V"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Disneyland" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qWl-dY-omM">
+                                <rect key="frame" x="80" y="29.666666666666671" width="254.66666666666669" height="62"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="52"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Mg-bl-CKP" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
+                                <rect key="frame" x="8" y="128" width="398" height="418"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="5Rg-Gc-84D">
+                                        <rect key="frame" x="8" y="8" width="382" height="402"/>
+                                        <string key="text">Would you like to plan a perfect day trip in California involving your children?  Disneyland proves to be the best option to you offering you ultimate features in an ideal manner that you expect accordingly. Get access to the premium activities for the sake of your children due to which best features are experienced with utmost flexibility. Disneyland Park, originally Disneyland, is the first of two theme parks built at the Disneyland Resort in Anaheim, California, opened on July 17, 1955. It is the only theme park designed and built under the direct supervision of Walt Disney.</string>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
+                                        <color key="textColor" red="0.2202966371" green="0.2202966371" blue="0.2202966371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="5Rg-Gc-84D" secondAttribute="bottom" constant="8" id="1Yq-UM-Pfa"/>
+                                    <constraint firstItem="5Rg-Gc-84D" firstAttribute="top" secondItem="6Mg-bl-CKP" secondAttribute="top" constant="8" id="qZu-bI-2s7"/>
+                                    <constraint firstItem="5Rg-Gc-84D" firstAttribute="leading" secondItem="6Mg-bl-CKP" secondAttribute="leading" constant="8" id="um5-WG-wLX"/>
+                                    <constraint firstAttribute="trailing" secondItem="5Rg-Gc-84D" secondAttribute="trailing" constant="8" id="x6O-sc-INJ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DOv-AE-LLY" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
+                                <rect key="frame" x="20" y="622" width="374" height="42"/>
+                                <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="pid-6X-vYu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="Open in Maps">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KzR-pW-B1v" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
+                                <rect key="frame" x="8" y="554" width="398" height="60"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adress: 1313 Disneyland Dr, Anaheim, CA 92802, USA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2dW-6g-gmc">
+                                        <rect key="frame" x="8" y="8" width="382" height="44"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.097361508109999995" green="0.29944455710000001" blue="0.5615385812" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="2dW-6g-gmc" firstAttribute="leading" secondItem="KzR-pW-B1v" secondAttribute="leading" constant="8" id="3z7-a8-riA"/>
+                                    <constraint firstAttribute="height" constant="60" id="5Qa-6l-UQR"/>
+                                    <constraint firstItem="2dW-6g-gmc" firstAttribute="top" secondItem="KzR-pW-B1v" secondAttribute="top" constant="8" id="Oxc-Nq-Hec"/>
+                                    <constraint firstAttribute="trailing" secondItem="2dW-6g-gmc" secondAttribute="trailing" constant="8" id="QG5-6a-gNn"/>
+                                    <constraint firstAttribute="bottom" secondItem="2dW-6g-gmc" secondAttribute="bottom" constant="8" id="yxG-gg-PLL"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6Mg-bl-CKP" firstAttribute="leading" secondItem="YOg-Bc-kb6" secondAttribute="leading" constant="8" id="5PS-gA-2mk"/>
+                            <constraint firstItem="KzR-pW-B1v" firstAttribute="leading" secondItem="YOg-Bc-kb6" secondAttribute="leading" constant="8" id="JWY-e3-eGg"/>
+                            <constraint firstItem="DOv-AE-LLY" firstAttribute="top" secondItem="KzR-pW-B1v" secondAttribute="bottom" constant="8" id="LFp-EZ-fuz"/>
+                            <constraint firstAttribute="trailing" secondItem="6Mg-bl-CKP" secondAttribute="trailing" constant="8" id="Lhy-FW-ekP"/>
+                            <constraint firstItem="eYE-PF-pvW" firstAttribute="leading" secondItem="YOg-Bc-kb6" secondAttribute="leading" id="RjM-bi-UnT"/>
+                            <constraint firstItem="6Mg-bl-CKP" firstAttribute="top" secondItem="eYE-PF-pvW" secondAttribute="bottom" constant="8" id="Vqu-Md-7vS"/>
+                            <constraint firstItem="DOv-AE-LLY" firstAttribute="leading" secondItem="YOg-Bc-kb6" secondAttribute="leadingMargin" id="YsO-kQ-F1u"/>
+                            <constraint firstAttribute="trailing" secondItem="KzR-pW-B1v" secondAttribute="trailing" constant="8" id="ebF-kR-vMX"/>
+                            <constraint firstItem="BA3-gt-zD6" firstAttribute="top" secondItem="DOv-AE-LLY" secondAttribute="bottom" constant="8" id="fB7-rx-qdV"/>
+                            <constraint firstItem="eYE-PF-pvW" firstAttribute="top" secondItem="gbO-oj-knX" secondAttribute="bottom" id="hTv-0g-kUl"/>
+                            <constraint firstItem="qWl-dY-omM" firstAttribute="centerY" secondItem="eYE-PF-pvW" secondAttribute="centerY" id="iG7-ke-XTI"/>
+                            <constraint firstItem="KzR-pW-B1v" firstAttribute="top" secondItem="6Mg-bl-CKP" secondAttribute="bottom" constant="8" id="nuI-kc-OUu"/>
+                            <constraint firstAttribute="trailing" secondItem="eYE-PF-pvW" secondAttribute="trailing" id="pAb-jH-Byh"/>
+                            <constraint firstItem="DOv-AE-LLY" firstAttribute="trailing" secondItem="YOg-Bc-kb6" secondAttribute="trailingMargin" id="uaD-4s-xFM"/>
+                            <constraint firstItem="qWl-dY-omM" firstAttribute="centerX" secondItem="eYE-PF-pvW" secondAttribute="centerX" id="xgQ-c0-bOa"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="oXi-PB-De9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dMB-gS-Ttb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4761" y="-899"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4OT-UX-96i">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="JBW-JX-jcW" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xT7-9W-tTP"/>
+                        <viewControllerLayoutGuide type="bottom" id="VcT-4Z-6yG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="l5O-Id-IMW">
+                        <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="disneyland" translatesAutoresizingMaskIntoConstraints="NO" id="MMN-Or-ZH9">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="Nlj-ye-9NI"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Disneyland" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cSb-wg-5Gj">
+                                <rect key="frame" x="80" y="29.666666666666671" width="254.66666666666669" height="62"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="52"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NI3-oN-are" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
+                                <rect key="frame" x="8" y="128" width="398" height="418"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ee3-wY-CT8">
+                                        <rect key="frame" x="8" y="8" width="382" height="402"/>
+                                        <string key="text">Would you like to plan a perfect day trip in California involving your children?  Disneyland proves to be the best option to you offering you ultimate features in an ideal manner that you expect accordingly. Get access to the premium activities for the sake of your children due to which best features are experienced with utmost flexibility. Disneyland Park, originally Disneyland, is the first of two theme parks built at the Disneyland Resort in Anaheim, California, opened on July 17, 1955. It is the only theme park designed and built under the direct supervision of Walt Disney.</string>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
+                                        <color key="textColor" red="0.2202966371" green="0.2202966371" blue="0.2202966371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="ee3-wY-CT8" firstAttribute="top" secondItem="NI3-oN-are" secondAttribute="top" constant="8" id="3gS-A0-A3B"/>
+                                    <constraint firstItem="ee3-wY-CT8" firstAttribute="leading" secondItem="NI3-oN-are" secondAttribute="leading" constant="8" id="Cih-Zf-nq0"/>
+                                    <constraint firstAttribute="bottom" secondItem="ee3-wY-CT8" secondAttribute="bottom" constant="8" id="Lpc-Dc-UeB"/>
+                                    <constraint firstAttribute="trailing" secondItem="ee3-wY-CT8" secondAttribute="trailing" constant="8" id="aUg-55-lYB"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I2O-iA-euD" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
+                                <rect key="frame" x="20" y="622" width="374" height="42"/>
+                                <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="dgH-qO-cYp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="Open in Maps">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GM5-iq-exg" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
+                                <rect key="frame" x="8" y="554" width="398" height="60"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adress: 1313 Disneyland Dr, Anaheim, CA 92802, USA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WaC-oV-X1s">
+                                        <rect key="frame" x="8" y="8" width="382" height="44"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.097361508109999995" green="0.29944455710000001" blue="0.5615385812" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="WaC-oV-X1s" firstAttribute="top" secondItem="GM5-iq-exg" secondAttribute="top" constant="8" id="HF4-z7-bj0"/>
+                                    <constraint firstAttribute="trailing" secondItem="WaC-oV-X1s" secondAttribute="trailing" constant="8" id="WfG-Tq-Q5Z"/>
+                                    <constraint firstItem="WaC-oV-X1s" firstAttribute="leading" secondItem="GM5-iq-exg" secondAttribute="leading" constant="8" id="ZZR-zh-Roh"/>
+                                    <constraint firstAttribute="bottom" secondItem="WaC-oV-X1s" secondAttribute="bottom" constant="8" id="kuG-Yz-Vqg"/>
+                                    <constraint firstAttribute="height" constant="60" id="ubn-Ey-r4g"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="I2O-iA-euD" firstAttribute="trailing" secondItem="l5O-Id-IMW" secondAttribute="trailingMargin" id="3Y8-Ll-NgL"/>
+                            <constraint firstItem="cSb-wg-5Gj" firstAttribute="centerX" secondItem="MMN-Or-ZH9" secondAttribute="centerX" id="3nc-B4-3Qa"/>
+                            <constraint firstItem="GM5-iq-exg" firstAttribute="top" secondItem="NI3-oN-are" secondAttribute="bottom" constant="8" id="5Xf-5D-k1F"/>
+                            <constraint firstAttribute="trailing" secondItem="MMN-Or-ZH9" secondAttribute="trailing" id="CWd-Ts-J6F"/>
+                            <constraint firstItem="I2O-iA-euD" firstAttribute="top" secondItem="GM5-iq-exg" secondAttribute="bottom" constant="8" id="DhB-TM-QTj"/>
+                            <constraint firstAttribute="trailing" secondItem="GM5-iq-exg" secondAttribute="trailing" constant="8" id="Fjp-VN-GbX"/>
+                            <constraint firstItem="MMN-Or-ZH9" firstAttribute="top" secondItem="xT7-9W-tTP" secondAttribute="bottom" id="M31-OJ-mPi"/>
+                            <constraint firstItem="NI3-oN-are" firstAttribute="top" secondItem="MMN-Or-ZH9" secondAttribute="bottom" constant="8" id="MHM-dY-Cd7"/>
+                            <constraint firstItem="VcT-4Z-6yG" firstAttribute="top" secondItem="I2O-iA-euD" secondAttribute="bottom" constant="8" id="Qab-L4-V80"/>
+                            <constraint firstItem="MMN-Or-ZH9" firstAttribute="leading" secondItem="l5O-Id-IMW" secondAttribute="leading" id="XX2-oJ-nHq"/>
+                            <constraint firstItem="I2O-iA-euD" firstAttribute="leading" secondItem="l5O-Id-IMW" secondAttribute="leadingMargin" id="Xn2-07-LeO"/>
+                            <constraint firstItem="GM5-iq-exg" firstAttribute="leading" secondItem="l5O-Id-IMW" secondAttribute="leading" constant="8" id="c2t-lG-Uz8"/>
+                            <constraint firstItem="cSb-wg-5Gj" firstAttribute="centerY" secondItem="MMN-Or-ZH9" secondAttribute="centerY" id="gM8-Es-f9p"/>
+                            <constraint firstItem="NI3-oN-are" firstAttribute="leading" secondItem="l5O-Id-IMW" secondAttribute="leading" constant="8" id="goa-sV-0Xt"/>
+                            <constraint firstAttribute="trailing" secondItem="NI3-oN-are" secondAttribute="trailing" constant="8" id="vAp-Mu-AT5"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="BFe-aQ-u62"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="os2-Hu-az1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5552" y="-899"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fy8-cI-MBq">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="ys0-tJ-ffP" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="roy-V3-Fh4"/>
+                        <viewControllerLayoutGuide type="bottom" id="U1Z-w3-97r"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="W6j-bJ-wqL">
+                        <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="disneyland" translatesAutoresizingMaskIntoConstraints="NO" id="CTJ-E1-eD0">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="Wdv-zE-TKy"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Disneyland" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oxh-dq-wKB">
+                                <rect key="frame" x="80" y="29.666666666666671" width="254.66666666666669" height="62"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="52"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bcN-em-qua" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
+                                <rect key="frame" x="8" y="128" width="398" height="418"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="hLF-3E-CzI">
+                                        <rect key="frame" x="8" y="8" width="382" height="402"/>
+                                        <string key="text">Would you like to plan a perfect day trip in California involving your children?  Disneyland proves to be the best option to you offering you ultimate features in an ideal manner that you expect accordingly. Get access to the premium activities for the sake of your children due to which best features are experienced with utmost flexibility. Disneyland Park, originally Disneyland, is the first of two theme parks built at the Disneyland Resort in Anaheim, California, opened on July 17, 1955. It is the only theme park designed and built under the direct supervision of Walt Disney.</string>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
+                                        <color key="textColor" red="0.2202966371" green="0.2202966371" blue="0.2202966371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="hLF-3E-CzI" firstAttribute="top" secondItem="bcN-em-qua" secondAttribute="top" constant="8" id="Nzt-Gv-Xx1"/>
+                                    <constraint firstAttribute="bottom" secondItem="hLF-3E-CzI" secondAttribute="bottom" constant="8" id="f8L-cq-EG1"/>
+                                    <constraint firstAttribute="trailing" secondItem="hLF-3E-CzI" secondAttribute="trailing" constant="8" id="qUQ-IB-0Xr"/>
+                                    <constraint firstItem="hLF-3E-CzI" firstAttribute="leading" secondItem="bcN-em-qua" secondAttribute="leading" constant="8" id="sWC-6c-960"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wg8-YN-Z8h" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
+                                <rect key="frame" x="20" y="622" width="374" height="42"/>
+                                <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="xTR-Cl-eVt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="Open in Maps">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wos-hQ-gGI" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
+                                <rect key="frame" x="8" y="554" width="398" height="60"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adress: 1313 Disneyland Dr, Anaheim, CA 92802, USA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m19-rz-CoT">
+                                        <rect key="frame" x="8" y="8" width="382" height="44"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.097361508109999995" green="0.29944455710000001" blue="0.5615385812" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="m19-rz-CoT" firstAttribute="leading" secondItem="wos-hQ-gGI" secondAttribute="leading" constant="8" id="9Z5-Yv-LnE"/>
+                                    <constraint firstAttribute="trailing" secondItem="m19-rz-CoT" secondAttribute="trailing" constant="8" id="MNb-F3-433"/>
+                                    <constraint firstAttribute="height" constant="60" id="YAS-Us-hey"/>
+                                    <constraint firstAttribute="bottom" secondItem="m19-rz-CoT" secondAttribute="bottom" constant="8" id="uKi-6m-Zak"/>
+                                    <constraint firstItem="m19-rz-CoT" firstAttribute="top" secondItem="wos-hQ-gGI" secondAttribute="top" constant="8" id="zto-0O-dr8"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wos-hQ-gGI" firstAttribute="top" secondItem="bcN-em-qua" secondAttribute="bottom" constant="8" id="3SK-OZ-DzN"/>
+                            <constraint firstItem="wg8-YN-Z8h" firstAttribute="top" secondItem="wos-hQ-gGI" secondAttribute="bottom" constant="8" id="5FK-ue-Uz0"/>
+                            <constraint firstItem="CTJ-E1-eD0" firstAttribute="leading" secondItem="W6j-bJ-wqL" secondAttribute="leading" id="6n2-eX-xb5"/>
+                            <constraint firstItem="wos-hQ-gGI" firstAttribute="leading" secondItem="W6j-bJ-wqL" secondAttribute="leading" constant="8" id="BfL-Pq-Yb0"/>
+                            <constraint firstItem="U1Z-w3-97r" firstAttribute="top" secondItem="wg8-YN-Z8h" secondAttribute="bottom" constant="8" id="Ga3-yj-I6V"/>
+                            <constraint firstItem="wg8-YN-Z8h" firstAttribute="trailing" secondItem="W6j-bJ-wqL" secondAttribute="trailingMargin" id="ehL-Hu-T9E"/>
+                            <constraint firstItem="oxh-dq-wKB" firstAttribute="centerY" secondItem="CTJ-E1-eD0" secondAttribute="centerY" id="fca-UO-Wd2"/>
+                            <constraint firstItem="oxh-dq-wKB" firstAttribute="centerX" secondItem="CTJ-E1-eD0" secondAttribute="centerX" id="irJ-w7-gCW"/>
+                            <constraint firstAttribute="trailing" secondItem="wos-hQ-gGI" secondAttribute="trailing" constant="8" id="jbV-WH-VtR"/>
+                            <constraint firstItem="bcN-em-qua" firstAttribute="top" secondItem="CTJ-E1-eD0" secondAttribute="bottom" constant="8" id="jul-W8-9th"/>
+                            <constraint firstAttribute="trailing" secondItem="bcN-em-qua" secondAttribute="trailing" constant="8" id="m59-p6-VHo"/>
+                            <constraint firstAttribute="trailing" secondItem="CTJ-E1-eD0" secondAttribute="trailing" id="opP-05-qHR"/>
+                            <constraint firstItem="bcN-em-qua" firstAttribute="leading" secondItem="W6j-bJ-wqL" secondAttribute="leading" constant="8" id="ovy-Pr-zjj"/>
+                            <constraint firstItem="CTJ-E1-eD0" firstAttribute="top" secondItem="roy-V3-Fh4" secondAttribute="bottom" id="xTl-lE-SAU"/>
+                            <constraint firstItem="wg8-YN-Z8h" firstAttribute="leading" secondItem="W6j-bJ-wqL" secondAttribute="leadingMargin" id="zk9-EV-p5B"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Exa-Mf-gOG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lea-aZ-S7f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6338" y="-899"/>
+        </scene>
     </scenes>
     <resources>
         <image name="disney" width="960" height="336"/>
+        <image name="disneyland" width="960" height="336"/>
         <image name="hollywood" width="960" height="336"/>
         <image name="museum" width="960" height="336"/>
         <image name="santamonica" width="960" height="336"/>

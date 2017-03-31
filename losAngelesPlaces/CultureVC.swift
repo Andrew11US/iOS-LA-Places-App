@@ -1,5 +1,5 @@
 //
-//  LandmarksVC.swift
+//  CultureVC.swift
 //  losAngelesPlaces
 //
 //  Created by Andrew Foster on 3/31/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LandmarksVC: UIViewController {
+class CultureVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

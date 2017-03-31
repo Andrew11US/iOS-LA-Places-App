@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		658549AC749CF336B91794C4 /* Pods_losAngelesPlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FADA2AFD9DEF5F8A858C6AC2 /* Pods_losAngelesPlaces.framework */; };
+		9026D5BB1E8EAB3600475BA4 /* ActivityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9026D5BA1E8EAB3600475BA4 /* ActivityVC.swift */; };
+		9026D5BD1E8EAB4C00475BA4 /* CultureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9026D5BC1E8EAB4C00475BA4 /* CultureVC.swift */; };
+		9026D5BF1E8EAB5D00475BA4 /* HollywoodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9026D5BE1E8EAB5D00475BA4 /* HollywoodVC.swift */; };
 		90CA6EF41E8E72B0009A01D5 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CA6EF31E8E72B0009A01D5 /* CustomButton.swift */; };
 		90CA6EF61E8E72BE009A01D5 /* Material Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CA6EF51E8E72BE009A01D5 /* Material Design.swift */; };
 		90CA6EF81E8E72EB009A01D5 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CA6EF71E8E72EB009A01D5 /* RoundedView.swift */; };
@@ -22,6 +25,9 @@
 
 /* Begin PBXFileReference section */
 		866F9FB173636E9D659D99B9 /* Pods-losAngelesPlaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-losAngelesPlaces.release.xcconfig"; path = "Pods/Target Support Files/Pods-losAngelesPlaces/Pods-losAngelesPlaces.release.xcconfig"; sourceTree = "<group>"; };
+		9026D5BA1E8EAB3600475BA4 /* ActivityVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityVC.swift; sourceTree = "<group>"; };
+		9026D5BC1E8EAB4C00475BA4 /* CultureVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CultureVC.swift; sourceTree = "<group>"; };
+		9026D5BE1E8EAB5D00475BA4 /* HollywoodVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HollywoodVC.swift; sourceTree = "<group>"; };
 		90CA6EF31E8E72B0009A01D5 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		90CA6EF51E8E72BE009A01D5 /* Material Design.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Material Design.swift"; sourceTree = "<group>"; };
 		90CA6EF71E8E72EB009A01D5 /* RoundedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
@@ -89,6 +95,9 @@
 			children = (
 				90D1EEE31E81BA51009BED54 /* ViewController.swift */,
 				90CA6EFD1E8E7D4A009A01D5 /* LandmarksVC.swift */,
+				9026D5BA1E8EAB3600475BA4 /* ActivityVC.swift */,
+				9026D5BC1E8EAB4C00475BA4 /* CultureVC.swift */,
+				9026D5BE1E8EAB5D00475BA4 /* HollywoodVC.swift */,
 				90CA6EFF1E8EA35A009A01D5 /* DisneyVC.swift */,
 			);
 			name = Controllers;
@@ -271,6 +280,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				90D1EEE41E81BA51009BED54 /* ViewController.swift in Sources */,
+				9026D5BB1E8EAB3600475BA4 /* ActivityVC.swift in Sources */,
+				9026D5BF1E8EAB5D00475BA4 /* HollywoodVC.swift in Sources */,
+				9026D5BD1E8EAB4C00475BA4 /* CultureVC.swift in Sources */,
 				90CA6F001E8EA35A009A01D5 /* DisneyVC.swift in Sources */,
 				90CA6EF61E8E72BE009A01D5 /* Material Design.swift in Sources */,
 				90D1EEE21E81BA51009BED54 /* AppDelegate.swift in Sources */,
