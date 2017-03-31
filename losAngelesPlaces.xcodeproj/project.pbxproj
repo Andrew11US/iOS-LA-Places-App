@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		658549AC749CF336B91794C4 /* Pods_losAngelesPlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FADA2AFD9DEF5F8A858C6AC2 /* Pods_losAngelesPlaces.framework */; };
+		90CA6EF41E8E72B0009A01D5 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CA6EF31E8E72B0009A01D5 /* CustomButton.swift */; };
+		90CA6EF61E8E72BE009A01D5 /* Material Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CA6EF51E8E72BE009A01D5 /* Material Design.swift */; };
+		90CA6EF81E8E72EB009A01D5 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CA6EF71E8E72EB009A01D5 /* RoundedView.swift */; };
+		90CA6EFE1E8E7D4A009A01D5 /* LandmarksVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CA6EFD1E8E7D4A009A01D5 /* LandmarksVC.swift */; };
 		90D1EEE21E81BA51009BED54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D1EEE11E81BA51009BED54 /* AppDelegate.swift */; };
 		90D1EEE41E81BA51009BED54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D1EEE31E81BA51009BED54 /* ViewController.swift */; };
 		90D1EEE71E81BA51009BED54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D1EEE51E81BA51009BED54 /* Main.storyboard */; };
@@ -15,6 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		866F9FB173636E9D659D99B9 /* Pods-losAngelesPlaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-losAngelesPlaces.release.xcconfig"; path = "Pods/Target Support Files/Pods-losAngelesPlaces/Pods-losAngelesPlaces.release.xcconfig"; sourceTree = "<group>"; };
+		90CA6EF31E8E72B0009A01D5 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		90CA6EF51E8E72BE009A01D5 /* Material Design.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Material Design.swift"; sourceTree = "<group>"; };
+		90CA6EF71E8E72EB009A01D5 /* RoundedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		90CA6EF91E8E732A009A01D5 /* losAngelesPlaces-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "losAngelesPlaces-Bridging-Header.h"; sourceTree = "<group>"; };
+		90CA6EFD1E8E7D4A009A01D5 /* LandmarksVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarksVC.swift; sourceTree = "<group>"; };
 		90D1EEDE1E81BA51009BED54 /* losAngelesPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = losAngelesPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D1EEE11E81BA51009BED54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90D1EEE31E81BA51009BED54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +33,8 @@
 		90D1EEE81E81BA51009BED54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90D1EEEB1E81BA51009BED54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90D1EEED1E81BA51009BED54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A18EC6667D9C6030655C4BD /* Pods-losAngelesPlaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-losAngelesPlaces.debug.xcconfig"; path = "Pods/Target Support Files/Pods-losAngelesPlaces/Pods-losAngelesPlaces.debug.xcconfig"; sourceTree = "<group>"; };
+		FADA2AFD9DEF5F8A858C6AC2 /* Pods_losAngelesPlaces.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_losAngelesPlaces.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +42,82 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				658549AC749CF336B91794C4 /* Pods_losAngelesPlaces.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		223B76057B1C0A9F6E0969F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FADA2AFD9DEF5F8A858C6AC2 /* Pods_losAngelesPlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4031EB83C0F0DEF11AC2E854 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A18EC6667D9C6030655C4BD /* Pods-losAngelesPlaces.debug.xcconfig */,
+				866F9FB173636E9D659D99B9 /* Pods-losAngelesPlaces.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		90CA6EEE1E8E5DA1009A01D5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				90D1EEE51E81BA51009BED54 /* Main.storyboard */,
+				90D1EEEA1E81BA51009BED54 /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		90CA6EEF1E8E5DA6009A01D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		90CA6EF01E8E5DAD009A01D5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				90D1EEE31E81BA51009BED54 /* ViewController.swift */,
+				90CA6EFD1E8E7D4A009A01D5 /* LandmarksVC.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		90CA6EF11E8E5DB6009A01D5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				90CA6EF31E8E72B0009A01D5 /* CustomButton.swift */,
+				90CA6EF51E8E72BE009A01D5 /* Material Design.swift */,
+				90CA6EF71E8E72EB009A01D5 /* RoundedView.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		90CA6EF21E8E5DC3009A01D5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				90D1EEE11E81BA51009BED54 /* AppDelegate.swift */,
+				90D1EEED1E81BA51009BED54 /* Info.plist */,
+				90CA6EF91E8E732A009A01D5 /* losAngelesPlaces-Bridging-Header.h */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
 		90D1EED51E81BA51009BED54 = {
 			isa = PBXGroup;
 			children = (
 				90D1EEE01E81BA51009BED54 /* losAngelesPlaces */,
 				90D1EEDF1E81BA51009BED54 /* Products */,
+				4031EB83C0F0DEF11AC2E854 /* Pods */,
+				223B76057B1C0A9F6E0969F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +132,12 @@
 		90D1EEE01E81BA51009BED54 /* losAngelesPlaces */ = {
 			isa = PBXGroup;
 			children = (
-				90D1EEE11E81BA51009BED54 /* AppDelegate.swift */,
-				90D1EEE31E81BA51009BED54 /* ViewController.swift */,
-				90D1EEE51E81BA51009BED54 /* Main.storyboard */,
+				90CA6EEE1E8E5DA1009A01D5 /* UI */,
 				90D1EEE81E81BA51009BED54 /* Assets.xcassets */,
-				90D1EEEA1E81BA51009BED54 /* LaunchScreen.storyboard */,
-				90D1EEED1E81BA51009BED54 /* Info.plist */,
+				90CA6EF01E8E5DAD009A01D5 /* Controllers */,
+				90CA6EEF1E8E5DA6009A01D5 /* Model */,
+				90CA6EF11E8E5DB6009A01D5 /* Services */,
+				90CA6EF21E8E5DC3009A01D5 /* Support Files */,
 			);
 			path = losAngelesPlaces;
 			sourceTree = "<group>";
@@ -71,9 +149,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90D1EEF01E81BA51009BED54 /* Build configuration list for PBXNativeTarget "losAngelesPlaces" */;
 			buildPhases = (
+				99C0B3B6ED4CEBEC7C3B2533 /* [CP] Check Pods Manifest.lock */,
 				90D1EEDA1E81BA51009BED54 /* Sources */,
 				90D1EEDB1E81BA51009BED54 /* Frameworks */,
 				90D1EEDC1E81BA51009BED54 /* Resources */,
+				9282225013E206C0EE3CA5BA /* [CP] Embed Pods Frameworks */,
+				59AC07E0C3BD343FBC8E95BA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +178,7 @@
 					90D1EEDD1E81BA51009BED54 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = PTRW36GG78;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -132,13 +214,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		59AC07E0C3BD343FBC8E95BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-losAngelesPlaces/Pods-losAngelesPlaces-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9282225013E206C0EE3CA5BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-losAngelesPlaces/Pods-losAngelesPlaces-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99C0B3B6ED4CEBEC7C3B2533 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		90D1EEDA1E81BA51009BED54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				90D1EEE41E81BA51009BED54 /* ViewController.swift in Sources */,
+				90CA6EF61E8E72BE009A01D5 /* Material Design.swift in Sources */,
 				90D1EEE21E81BA51009BED54 /* AppDelegate.swift in Sources */,
+				90CA6EF81E8E72EB009A01D5 /* RoundedView.swift in Sources */,
+				90CA6EFE1E8E7D4A009A01D5 /* LandmarksVC.swift in Sources */,
+				90CA6EF41E8E72B0009A01D5 /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +393,10 @@
 		};
 		90D1EEF11E81BA51009BED54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A18EC6667D9C6030655C4BD /* Pods-losAngelesPlaces.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = PTRW36GG78;
 				INFOPLIST_FILE = losAngelesPlaces/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -269,14 +405,19 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "ff796c26-c3e8-4c5b-bc3e-cd9199722279";
 				PROVISIONING_PROFILE_SPECIFIER = LosAngelesPlacesDevProfile;
+				SWIFT_OBJC_BRIDGING_HEADER = "losAngelesPlaces/losAngelesPlaces-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		90D1EEF21E81BA51009BED54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 866F9FB173636E9D659D99B9 /* Pods-losAngelesPlaces.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = PTRW36GG78;
 				INFOPLIST_FILE = losAngelesPlaces/Info.plist;
@@ -286,7 +427,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "a4bc477b-5e9e-4926-876f-e75fb7aded87";
 				PROVISIONING_PROFILE_SPECIFIER = LosAngelesPlacesDistributionProfile;
+				SWIFT_OBJC_BRIDGING_HEADER = "losAngelesPlaces/losAngelesPlaces-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -309,6 +452,7 @@
 				90D1EEF21E81BA51009BED54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
