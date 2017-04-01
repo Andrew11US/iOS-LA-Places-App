@@ -18,8 +18,8 @@ class L3VC: UIViewController {
 
     @IBAction func openMap(_ sender: Any) {
         
-        let latitude = 34.0540603
-        let longitude = -118.2587837
+        let latitude = 34.0541739
+        let longitude = -118.241
         let strURL = "comgooglemaps://comgooglemaps://?saddr=&daddr=\(Float(latitude)),\(Float(longitude))&directionsmode=driving"
         
         if let url = URL(string: strURL){ UIApplication.shared.open(url as URL, options: [:], completionHandler: nil) }

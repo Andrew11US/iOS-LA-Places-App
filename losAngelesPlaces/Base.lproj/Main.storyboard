@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="F9v-El-CcS">
-    <device id="retina4_0" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -19,11 +19,11 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LA Places" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xYc-qZ-4vx">
-                                <rect key="frame" x="16" y="8" width="288" height="90"/>
+                                <rect key="frame" x="20" y="8" width="374" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="toQ-cG-1Kq"/>
                                 </constraints>
@@ -32,10 +32,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="H0i-vH-VQP">
-                                <rect key="frame" x="24" y="106" width="272" height="378"/>
+                                <rect key="frame" x="28" y="106" width="358" height="546"/>
                                 <subviews>
                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jIN-nG-uAZ" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="272" height="83.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="358" height="125.33333333333334"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="42"/>
                                         <state key="normal" title="Landmarks" backgroundImage="disney">
@@ -51,7 +51,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBc-SS-LS1" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="98.5" width="272" height="83"/>
+                                        <rect key="frame" x="0.0" y="140.33333333333331" width="358" height="125.33333333333331"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="42"/>
                                         <state key="normal" title="Activities" backgroundImage="santamonica">
@@ -67,7 +67,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uLa-mI-Kfc" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="196.5" width="272" height="83.5"/>
+                                        <rect key="frame" x="0.0" y="280.66666666666669" width="358" height="125"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="42"/>
                                         <state key="normal" title="Culture" backgroundImage="museum">
@@ -83,7 +83,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lHL-N9-PJf" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="295" width="272" height="83"/>
+                                        <rect key="frame" x="0.0" y="420.66666666666663" width="358" height="125.33333333333337"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="42"/>
                                         <state key="normal" backgroundImage="hollywood">
@@ -127,14 +127,14 @@
                         <viewControllerLayoutGuide type="bottom" id="2LC-1h-Chm"/>
                     </layoutGuides>
                     <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="GfX-ea-b8k">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="TRW-DV-b4E">
-                                <rect key="frame" x="24" y="20" width="272" height="464"/>
+                                <rect key="frame" x="28" y="20" width="358" height="632"/>
                                 <subviews>
                                     <button opaque="NO" clipsSubviews="YES" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B5N-OD-yOL" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="272" height="81"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="358" height="114.33333333333334"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
                                         <state key="normal" title="Disneyland" backgroundImage="disneyland"/>
@@ -148,7 +148,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" clipsSubviews="YES" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Obk-Yx-WMu" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="96" width="272" height="80.5"/>
+                                        <rect key="frame" x="0.0" y="129.33333333333331" width="358" height="114.33333333333334"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="23"/>
                                         <state key="normal" title="Walt Disney Concert Hall" backgroundImage="disney">
@@ -164,7 +164,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" clipsSubviews="YES" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u69-fw-6g7" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="191.5" width="272" height="81"/>
+                                        <rect key="frame" x="0.0" y="258.66666666666669" width="358" height="114.66666666666663"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
                                         <state key="normal" title="Little Tokyo" backgroundImage="tokyo">
@@ -180,7 +180,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" clipsSubviews="YES" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OpX-IX-jPA" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="287.5" width="272" height="80.5"/>
+                                        <rect key="frame" x="0.0" y="388.33333333333337" width="358" height="114.33333333333331"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
                                         <state key="normal" title="Dowmtown" backgroundImage="downtown">
@@ -196,7 +196,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" clipsSubviews="YES" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jq-kd-WUc" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="383" width="272" height="81"/>
+                                        <rect key="frame" x="0.0" y="517.66666666666652" width="358" height="114.33333333333337"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
                                         <state key="normal" title="Getty Center" backgroundImage="gettycenter">
@@ -237,26 +237,26 @@
                         <viewControllerLayoutGuide type="bottom" id="cad-ys-m3J"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="cz3-Gk-TbW">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="disneyland" translatesAutoresizingMaskIntoConstraints="NO" id="Zjd-zb-diA">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="XJ7-d9-hWZ"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Disneyland" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bvW-CI-mhS">
-                                <rect key="frame" x="33" y="29.5" width="254.5" height="62"/>
+                                <rect key="frame" x="80" y="29.666666666666671" width="254.66666666666669" height="62"/>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="52"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RSi-8Y-4eQ" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="128" width="304" height="250"/>
+                                <rect key="frame" x="8" y="128" width="398" height="418"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="iUh-Du-wUB">
-                                        <rect key="frame" x="8" y="8" width="288" height="234"/>
+                                        <rect key="frame" x="8" y="8" width="382" height="402"/>
                                         <string key="text">Would you like to plan a perfect day trip in California involving your children?  Disneyland proves to be the best option to you offering you ultimate features in an ideal manner that you expect accordingly. Get access to the premium activities for the sake of your children due to which best features are experienced with utmost flexibility. Disneyland Park, originally Disneyland, is the first of two theme parks built at the Disneyland Resort in Anaheim, California, opened on July 17, 1955. It is the only theme park designed and built under the direct supervision of Walt Disney.</string>
                                         <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
                                         <color key="textColor" red="0.22029663705583757" green="0.22029663705583757" blue="0.22029663705583757" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -275,7 +275,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TPa-cP-JsL" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="16" y="454" width="288" height="42"/>
+                                <rect key="frame" x="20" y="622" width="374" height="42"/>
                                 <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="50W-Km-Rm0"/>
@@ -295,10 +295,10 @@
                                 </connections>
                             </button>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mt6-Ij-Pw2" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="386" width="304" height="60"/>
+                                <rect key="frame" x="8" y="554" width="398" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address: 1313 Disneyland Dr, Anaheim, CA 92802, USA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vtk-8e-3co">
-                                        <rect key="frame" x="8" y="8" width="288" height="44"/>
+                                        <rect key="frame" x="8" y="8" width="382" height="44"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.097361508113517042" green="0.29944455707260342" blue="0.56153858118223354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -351,14 +351,14 @@
                         <viewControllerLayoutGuide type="bottom" id="N3P-zR-bNw"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Bi4-0J-r0n">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Mln-6m-7wb">
-                                <rect key="frame" x="24" y="20" width="272" height="464"/>
+                                <rect key="frame" x="28" y="20" width="358" height="632"/>
                                 <subviews>
                                     <button opaque="NO" clipsSubviews="YES" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BCL-E2-GXD" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="272" height="81"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="358" height="114.33333333333334"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
                                         <state key="normal" title="Griffin Park" backgroundImage="griffinpark">
@@ -374,7 +374,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" clipsSubviews="YES" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iGX-gw-AKO" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="96" width="272" height="80.5"/>
+                                        <rect key="frame" x="0.0" y="129.33333333333331" width="358" height="114.33333333333334"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
                                         <state key="normal" title="Santa Monica Pier" backgroundImage="santamonica">
@@ -390,7 +390,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" clipsSubviews="YES" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cPr-rH-M4C" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="191.5" width="272" height="81"/>
+                                        <rect key="frame" x="0.0" y="258.66666666666669" width="358" height="114.66666666666663"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
                                         <state key="normal" title="Dodger Stadium" backgroundImage="dodgerstadium">
@@ -406,7 +406,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" clipsSubviews="YES" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Szo-kd-oiO" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="287.5" width="272" height="80.5"/>
+                                        <rect key="frame" x="0.0" y="388.33333333333337" width="358" height="114.33333333333331"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="31"/>
                                         <state key="normal" title="Universal CityWalk" backgroundImage="universalcitywalk">
@@ -422,7 +422,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" clipsSubviews="YES" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Va-qe-8cw" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="383" width="272" height="81"/>
+                                        <rect key="frame" x="0.0" y="517.66666666666652" width="358" height="114.33333333333337"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
                                         <state key="normal" title="Venice Beach" backgroundImage="venicebeach">
@@ -463,14 +463,14 @@
                         <viewControllerLayoutGuide type="bottom" id="K90-PU-kXH"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="MIN-xO-ldz">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="0aF-CN-iVD">
-                                <rect key="frame" x="24" y="20" width="272" height="464"/>
+                                <rect key="frame" x="28" y="20" width="358" height="632"/>
                                 <subviews>
                                     <button opaque="NO" clipsSubviews="YES" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RWj-zH-KfN" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="272" height="81"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="358" height="114.33333333333334"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="23"/>
                                         <state key="normal" title="Natural History Museum" backgroundImage="museum">
@@ -486,7 +486,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" clipsSubviews="YES" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vCD-yT-c9g" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="96" width="272" height="80.5"/>
+                                        <rect key="frame" x="0.0" y="129.33333333333331" width="358" height="114.33333333333334"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
                                         <state key="normal" title="The Broad" backgroundImage="thebroad">
@@ -502,7 +502,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" clipsSubviews="YES" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="18w-pB-ZgF" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="191.5" width="272" height="81"/>
+                                        <rect key="frame" x="0.0" y="258.66666666666669" width="358" height="114.66666666666663"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="16"/>
                                         <state key="normal" title="Japanese American National Museum" backgroundImage="japanesemuseum">
@@ -518,7 +518,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" clipsSubviews="YES" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F3M-hU-HiC" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="287.5" width="272" height="80.5"/>
+                                        <rect key="frame" x="0.0" y="388.33333333333337" width="358" height="114.33333333333331"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="29"/>
                                         <state key="normal" title="Griffith Observatory" backgroundImage="observatory">
@@ -534,7 +534,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" clipsSubviews="YES" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ddj-wo-hks" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="383" width="272" height="81"/>
+                                        <rect key="frame" x="0.0" y="517.66666666666652" width="358" height="114.33333333333337"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="23"/>
                                         <state key="normal" title="California Science Center" backgroundImage="sciencecenter">
@@ -575,14 +575,14 @@
                         <viewControllerLayoutGuide type="bottom" id="Qnq-1y-cId"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="b53-Hu-7E7">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="8MA-5U-lku">
-                                <rect key="frame" x="24" y="20" width="272" height="464"/>
+                                <rect key="frame" x="28" y="20" width="358" height="632"/>
                                 <subviews>
                                     <button opaque="NO" clipsSubviews="YES" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EVh-Fw-ioT" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="272" height="81"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="358" height="114.33333333333334"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
                                         <state key="normal" title="Universal Studios" backgroundImage="universal">
@@ -598,7 +598,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" clipsSubviews="YES" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dJi-HP-wzg" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="96" width="272" height="80.5"/>
+                                        <rect key="frame" x="0.0" y="129.33333333333331" width="358" height="114.33333333333334"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
                                         <state key="normal" title="Walk of Fame" backgroundImage="walk">
@@ -614,7 +614,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" clipsSubviews="YES" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6GG-yg-4bE" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="191.5" width="272" height="81"/>
+                                        <rect key="frame" x="0.0" y="258.66666666666669" width="358" height="114.66666666666663"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
                                         <state key="normal" backgroundImage="hollywood">
@@ -630,7 +630,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" clipsSubviews="YES" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T32-6X-eLa" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="287.5" width="272" height="80.5"/>
+                                        <rect key="frame" x="0.0" y="388.33333333333337" width="358" height="114.33333333333331"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="21"/>
                                         <state key="normal" title="Grauman's Chinese Theatre" backgroundImage="grauman">
@@ -646,7 +646,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" clipsSubviews="YES" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hPO-Z4-Ndd" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="383" width="272" height="81"/>
+                                        <rect key="frame" x="0.0" y="517.66666666666652" width="358" height="114.33333333333337"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
                                         <state key="normal" title="Beverly Hills" backgroundImage="beverly">
@@ -710,28 +710,28 @@
                         <viewControllerLayoutGuide type="bottom" id="ZuO-8t-p6N"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="nKt-dL-Ri9">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="disney" translatesAutoresizingMaskIntoConstraints="NO" id="SZi-8L-lMC">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="kFC-ZO-zOh"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Walt Disney Concert Hall" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sQn-aR-0aJ">
-                                <rect key="frame" x="13.5" y="45" width="293" height="31"/>
+                                <rect key="frame" x="60.666666666666657" y="45" width="293" height="31"/>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="26"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E1K-QU-phP" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="128" width="304" height="250"/>
+                                <rect key="frame" x="8" y="128" width="398" height="418"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="lFO-If-J85">
-                                        <rect key="frame" x="8" y="8" width="288" height="234"/>
-                                        <mutableString key="text">Walt Disney Concert Hall (WDCH) is the home of the Los Angeles Philharmonic, presenting the best in classical music, contemporary music, world music and jazz. Designed by architect Frank Gehry, Walt Disney Concert Hall (WDCH) is an internationally recognized architectural landmark and one of the most acoustically sophisticated concert halls in the world.
-From the stainless steel curves of its striking exterior to the state-of-the-art acoustics of the hardwood-paneled main auditorium, the 3.6-acre complex embodies the unique energy and creative spirit of the city of Los Angeles and its orchestra.</mutableString>
+                                        <rect key="frame" x="8" y="8" width="382" height="402"/>
+                                        <string key="text">Walt Disney Concert Hall (WDCH) is the home of the Los Angeles Philharmonic, presenting the best in classical music, contemporary music, world music and jazz. Designed by architect Frank Gehry, Walt Disney Concert Hall (WDCH) is an internationally recognized architectural landmark and one of the most acoustically sophisticated concert halls in the world.
+From the stainless steel curves of its striking exterior to the state-of-the-art acoustics of the hardwood-paneled main auditorium, the 3.6-acre complex embodies the unique energy and creative spirit of the city of Los Angeles and its orchestra.</string>
                                         <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
                                         <color key="textColor" red="0.2202966371" green="0.2202966371" blue="0.2202966371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -749,7 +749,7 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="27s-aM-2G6" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="16" y="454" width="288" height="42"/>
+                                <rect key="frame" x="20" y="622" width="374" height="42"/>
                                 <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="Ka3-ja-NdG"/>
@@ -769,10 +769,10 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                                 </connections>
                             </button>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ebn-dT-DAL" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="386" width="304" height="60"/>
+                                <rect key="frame" x="8" y="554" width="398" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address: 111 S Grand Ave, Los Angeles, CA 90012, USA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P06-oe-lbI">
-                                        <rect key="frame" x="8" y="8" width="288" height="44"/>
+                                        <rect key="frame" x="8" y="8" width="382" height="44"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.097361508109999995" green="0.29944455710000001" blue="0.5615385812" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -825,27 +825,27 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                         <viewControllerLayoutGuide type="bottom" id="BA3-gt-zD6"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="YOg-Bc-kb6">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tokyo" translatesAutoresizingMaskIntoConstraints="NO" id="eYE-PF-pvW">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="2Hz-P2-99V"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Little Tokyo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qWl-dY-omM">
-                                <rect key="frame" x="31.5" y="29.5" width="258" height="62"/>
+                                <rect key="frame" x="78.666666666666686" y="29.666666666666671" width="258" height="62"/>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="52"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Mg-bl-CKP" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="128" width="304" height="250"/>
+                                <rect key="frame" x="8" y="128" width="398" height="418"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="5Rg-Gc-84D">
-                                        <rect key="frame" x="8" y="8" width="288" height="234"/>
-                                        <mutableString key="text">Little Tokyo, also known as Little Tokyo Historic District, is an ethnically Japanese American district in downtown Los Angeles and the heart of the largest Japanese-American population in North America. It is one of only three official Japantowns in the United States, all in California (the other two are in San Francisco and San Jose). Founded around the beginning of the 20th century, the area is the cultural center for Japanese Americans in Southern California. It was declared a National Historic Landmark District in 1995.</mutableString>
+                                        <rect key="frame" x="8" y="8" width="382" height="402"/>
+                                        <string key="text">Little Tokyo, also known as Little Tokyo Historic District, is an ethnically Japanese American district in downtown Los Angeles and the heart of the largest Japanese-American population in North America. It is one of only three official Japantowns in the United States, all in California (the other two are in San Francisco and San Jose). Founded around the beginning of the 20th century, the area is the cultural center for Japanese Americans in Southern California. It was declared a National Historic Landmark District in 1995.</string>
                                         <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
                                         <color key="textColor" red="0.2202966371" green="0.2202966371" blue="0.2202966371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -863,7 +863,7 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DOv-AE-LLY" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="16" y="454" width="288" height="42"/>
+                                <rect key="frame" x="20" y="622" width="374" height="42"/>
                                 <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="pid-6X-vYu"/>
@@ -883,10 +883,10 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                                 </connections>
                             </button>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KzR-pW-B1v" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="386" width="304" height="60"/>
+                                <rect key="frame" x="8" y="554" width="398" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address: 1313 Disneyland Dr, Anaheim, CA 92802, USA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2dW-6g-gmc">
-                                        <rect key="frame" x="8" y="8" width="288" height="44"/>
+                                        <rect key="frame" x="8" y="8" width="382" height="44"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.097361508109999995" green="0.29944455710000001" blue="0.5615385812" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -939,26 +939,26 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                         <viewControllerLayoutGuide type="bottom" id="VcT-4Z-6yG"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="l5O-Id-IMW">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="downtown" translatesAutoresizingMaskIntoConstraints="NO" id="MMN-Or-ZH9">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="Nlj-ye-9NI"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Downtown" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cSb-wg-5Gj">
-                                <rect key="frame" x="33.5" y="29.5" width="253.5" height="62"/>
+                                <rect key="frame" x="80.666666666666657" y="29.666666666666671" width="253.33333333333334" height="62"/>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="52"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NI3-oN-are" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="128" width="304" height="250"/>
+                                <rect key="frame" x="8" y="128" width="398" height="418"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ee3-wY-CT8">
-                                        <rect key="frame" x="8" y="8" width="288" height="234"/>
+                                        <rect key="frame" x="8" y="8" width="382" height="402"/>
                                         <string key="text">Downtown Los Angeles is the central business district of Los Angeles, California, as well as a diverse residential neighborhood of some 58,000 people. A heritage of the city's founding in 1781, Downtown Los Angeles today is composed of different areas ranging from a fashion district to a skid row, and it is the hub of the city's Metro rapid transit system. Banks, department stores and movie palaces at one time drew residents and visitors into the area.</string>
                                         <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
                                         <color key="textColor" red="0.2202966371" green="0.2202966371" blue="0.2202966371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -977,7 +977,7 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I2O-iA-euD" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="16" y="454" width="288" height="42"/>
+                                <rect key="frame" x="20" y="622" width="374" height="42"/>
                                 <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="dgH-qO-cYp"/>
@@ -997,10 +997,10 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                                 </connections>
                             </button>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GM5-iq-exg" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="386" width="304" height="60"/>
+                                <rect key="frame" x="8" y="554" width="398" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address: Paseo De La Plaza, Los Angeles, CA 90012, USA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WaC-oV-X1s">
-                                        <rect key="frame" x="8" y="8" width="288" height="44"/>
+                                        <rect key="frame" x="8" y="8" width="382" height="44"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.097361508109999995" green="0.29944455710000001" blue="0.5615385812" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -1053,26 +1053,26 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                         <viewControllerLayoutGuide type="bottom" id="U1Z-w3-97r"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="W6j-bJ-wqL">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gettycenter" translatesAutoresizingMaskIntoConstraints="NO" id="CTJ-E1-eD0">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="Wdv-zE-TKy"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Getty Center" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oxh-dq-wKB">
-                                <rect key="frame" x="13" y="29.5" width="295" height="62"/>
+                                <rect key="frame" x="60" y="29.666666666666671" width="295" height="62"/>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="52"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bcN-em-qua" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="128" width="304" height="250"/>
+                                <rect key="frame" x="8" y="128" width="398" height="418"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="hLF-3E-CzI">
-                                        <rect key="frame" x="8" y="8" width="288" height="234"/>
+                                        <rect key="frame" x="8" y="8" width="382" height="402"/>
                                         <string key="text">The Getty Center, in Los Angeles, California, is a campus of the Getty Museum and other programs of the Getty Trust. The $1.3 billion Center opened to the public on December 16, 1997 and is well known for its architecture, gardens, and views overlooking Los Angeles. The Center branch of the Museum features pre-20th-century European paintings, drawings, illuminated manuscripts, sculpture, and decorative arts; and 19th- and 20th-century American, Asian, and European photographs.</string>
                                         <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
                                         <color key="textColor" red="0.2202966371" green="0.2202966371" blue="0.2202966371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1091,7 +1091,7 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wg8-YN-Z8h" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="16" y="454" width="288" height="42"/>
+                                <rect key="frame" x="20" y="622" width="374" height="42"/>
                                 <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="xTR-Cl-eVt"/>
@@ -1111,10 +1111,10 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                                 </connections>
                             </button>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wos-hQ-gGI" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="386" width="304" height="60"/>
+                                <rect key="frame" x="8" y="554" width="398" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address: 1200 Getty Center Dr, Los Angeles, CA 90049, USA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m19-rz-CoT">
-                                        <rect key="frame" x="8" y="8" width="288" height="44"/>
+                                        <rect key="frame" x="8" y="8" width="382" height="44"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.097361508109999995" green="0.29944455710000001" blue="0.5615385812" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -1167,26 +1167,26 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                         <viewControllerLayoutGuide type="bottom" id="q9r-hL-WMt"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="OKu-TU-3NC">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="griffinpark" translatesAutoresizingMaskIntoConstraints="NO" id="Tk3-aY-hV5">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="p4d-SR-ShC"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Griffin Park" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="km4-yu-2SL">
-                                <rect key="frame" x="29" y="29.5" width="262.5" height="62"/>
+                                <rect key="frame" x="76" y="29.666666666666671" width="262.66666666666669" height="62"/>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="52"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SH0-Q9-jPo" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="128" width="304" height="250"/>
+                                <rect key="frame" x="8" y="128" width="398" height="418"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="25x-9r-Z28">
-                                        <rect key="frame" x="8" y="8" width="288" height="234"/>
+                                        <rect key="frame" x="8" y="8" width="382" height="402"/>
                                         <string key="text">Griffith Park is a large municipal park at the eastern end of the Santa Monica Mountains, in the Los Feliz neighborhood of Los Angeles, California. The park covers 4,310 acres (1,740 ha) of land, making it one of the largest urban parks in North America. It is the second-largest city park in California, after Mission Trails Preserve in San Diego, and the 11th largest municipally owned park in the United States.</string>
                                         <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
                                         <color key="textColor" red="0.2202966371" green="0.2202966371" blue="0.2202966371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1205,7 +1205,7 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dXH-km-bIa" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="16" y="454" width="288" height="42"/>
+                                <rect key="frame" x="20" y="622" width="374" height="42"/>
                                 <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="aOd-9x-gdr"/>
@@ -1225,10 +1225,10 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                                 </connections>
                             </button>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lqa-Q9-8Ey" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="386" width="304" height="60"/>
+                                <rect key="frame" x="8" y="554" width="398" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address: 4730 Crystal Springs Dr, Los Angeles, CA 90027, USA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Nf-5E-Fmh">
-                                        <rect key="frame" x="8" y="8" width="288" height="44"/>
+                                        <rect key="frame" x="8" y="8" width="382" height="44"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.097361508109999995" green="0.29944455710000001" blue="0.5615385812" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -1281,26 +1281,26 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                         <viewControllerLayoutGuide type="bottom" id="NcN-vK-cXJ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="1Vf-WI-Xba">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="santamonica" translatesAutoresizingMaskIntoConstraints="NO" id="LDx-Z6-zRC">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="KEt-bW-A1m"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Santa Monica Pier" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bkE-oa-0vl">
-                                <rect key="frame" x="9.5" y="38" width="302" height="45.5"/>
+                                <rect key="frame" x="56.666666666666657" y="38" width="302" height="45.666666666666671"/>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="38"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Pd-cY-bbs" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="128" width="304" height="250"/>
+                                <rect key="frame" x="8" y="128" width="398" height="418"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="83m-Wr-hJz">
-                                        <rect key="frame" x="8" y="8" width="288" height="234"/>
+                                        <rect key="frame" x="8" y="8" width="382" height="402"/>
                                         <string key="text">The Santa Monica Pier is a large double-jointed pier at the foot of Colorado Avenue in Santa Monica, California. With an iconic entrance, the pier is popular with residents and visitors as a landmark that is over 100 years old. The pier contains Pacific Park, a family amusement park with its one-of-a-kind, state-of-the-art, solar paneled Ferris wheel.</string>
                                         <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
                                         <color key="textColor" red="0.2202966371" green="0.2202966371" blue="0.2202966371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1319,7 +1319,7 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vdw-XA-Qea" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="16" y="454" width="288" height="42"/>
+                                <rect key="frame" x="20" y="622" width="374" height="42"/>
                                 <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="kD0-Ew-RRo"/>
@@ -1339,10 +1339,10 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                                 </connections>
                             </button>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hn0-rb-dLI" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="386" width="304" height="60"/>
+                                <rect key="frame" x="8" y="554" width="398" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address: Santa Monica Mountains National Recreation Area, 200 Santa Monica Pier, Santa Monica, CA 90401, USA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="9tt-PH-DCE">
-                                        <rect key="frame" x="8" y="8" width="288" height="44"/>
+                                        <rect key="frame" x="8" y="8" width="382" height="44"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.097361508109999995" green="0.29944455710000001" blue="0.5615385812" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -1395,27 +1395,27 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                         <viewControllerLayoutGuide type="bottom" id="jGj-bl-X9Q"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="7Pn-Bf-c0f">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dodgerstadium" translatesAutoresizingMaskIntoConstraints="NO" id="5Aa-Rg-L3m">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="uvt-oO-hec"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dodger Stadium" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="axI-p3-qu5">
-                                <rect key="frame" x="7.5" y="34.5" width="306" height="51.5"/>
+                                <rect key="frame" x="54.666666666666657" y="34.666666666666657" width="306" height="51.333333333333343"/>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="43"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iKk-H8-B1i" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="128" width="304" height="250"/>
+                                <rect key="frame" x="8" y="128" width="398" height="418"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="rnp-qB-MjD">
-                                        <rect key="frame" x="8" y="8" width="288" height="234"/>
-                                        <mutableString key="text">Dodger Stadium, occasionally called by the metonym Chavez Ravine, is a baseball park located in the Elysian Park neighborhood of Los Angeles, the home field of the Los Angeles Dodgers, the city's Major League Baseball (MLB) franchise. Opened 55 years ago on April 10, 1962, it was constructed in less than three years at a cost of $23 million, financed by private sources. Dodger Stadium is currently the oldest ballpark in MLB west of the Mississippi River, and third-oldest overall. The stadium hosted a soccer tournament on August 3, 2013 featuring four clubs, the hometown team Los Angeles Galaxy, and European giants Real Madrid, Everton, and Juventus.</mutableString>
+                                        <rect key="frame" x="8" y="8" width="382" height="402"/>
+                                        <string key="text">Dodger Stadium, occasionally called by the metonym Chavez Ravine, is a baseball park located in the Elysian Park neighborhood of Los Angeles, the home field of the Los Angeles Dodgers, the city's Major League Baseball (MLB) franchise. Opened 55 years ago on April 10, 1962, it was constructed in less than three years at a cost of $23 million, financed by private sources. Dodger Stadium is currently the oldest ballpark in MLB west of the Mississippi River, and third-oldest overall. The stadium hosted a soccer tournament on August 3, 2013 featuring four clubs, the hometown team Los Angeles Galaxy, and European giants Real Madrid, Everton, and Juventus.</string>
                                         <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
                                         <color key="textColor" red="0.2202966371" green="0.2202966371" blue="0.2202966371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -1433,7 +1433,7 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zK5-ra-nX2" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="16" y="454" width="288" height="42"/>
+                                <rect key="frame" x="20" y="622" width="374" height="42"/>
                                 <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="nDn-ad-bb0"/>
@@ -1453,10 +1453,10 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                                 </connections>
                             </button>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2W4-RL-M9X" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="386" width="304" height="60"/>
+                                <rect key="frame" x="8" y="554" width="398" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address: 1000 Vin Scully Ave, Los Angeles, CA 90012, USA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BEV-lC-9YI">
-                                        <rect key="frame" x="8" y="8" width="288" height="44"/>
+                                        <rect key="frame" x="8" y="8" width="382" height="44"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.097361508109999995" green="0.29944455710000001" blue="0.5615385812" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -1509,27 +1509,27 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                         <viewControllerLayoutGuide type="bottom" id="8gW-Z3-68h"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="BL5-ey-ifo">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="universalcitywalk" translatesAutoresizingMaskIntoConstraints="NO" id="3x2-AD-zbc">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="Lc9-vX-W9X"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Universal CityWalk" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="esq-0F-Pjk">
-                                <rect key="frame" x="4" y="38" width="312.5" height="44"/>
+                                <rect key="frame" x="51" y="38" width="312.66666666666669" height="44"/>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="37"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WQz-gT-hzn" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="128" width="304" height="250"/>
+                                <rect key="frame" x="8" y="128" width="398" height="418"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Cbz-IH-p1A">
-                                        <rect key="frame" x="8" y="8" width="288" height="234"/>
-                                        <mutableString key="text">Universal CityWalk are the entertainment and retail districts located adjacent to the theme parks of Universal Parks &amp; Resorts. CityWalk began as an expansion of Universal's first park, Universal Studios Hollywood, and serves as an entrance plaza from the parking lots to the theme parks. Universal CityWalk Hollywood is a three-block entertainment, dining, shopping promenade. It has more than 30 places to eat, a 19-screen movie theater featuring Imax, seven night spots, indoor skydiving and more than 30 stores.</mutableString>
+                                        <rect key="frame" x="8" y="8" width="382" height="402"/>
+                                        <string key="text">Universal CityWalk are the entertainment and retail districts located adjacent to the theme parks of Universal Parks &amp; Resorts. CityWalk began as an expansion of Universal's first park, Universal Studios Hollywood, and serves as an entrance plaza from the parking lots to the theme parks. Universal CityWalk Hollywood is a three-block entertainment, dining, shopping promenade. It has more than 30 places to eat, a 19-screen movie theater featuring Imax, seven night spots, indoor skydiving and more than 30 stores.</string>
                                         <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
                                         <color key="textColor" red="0.2202966371" green="0.2202966371" blue="0.2202966371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -1547,7 +1547,7 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ooI-uZ-kIJ" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="16" y="454" width="288" height="42"/>
+                                <rect key="frame" x="20" y="622" width="374" height="42"/>
                                 <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="VCc-6B-0Pu"/>
@@ -1567,10 +1567,10 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                                 </connections>
                             </button>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="srX-IQ-8aO" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="386" width="304" height="60"/>
+                                <rect key="frame" x="8" y="554" width="398" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address: 100 Universal City Plaza, Universal City, CA 91608, USA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uM0-Xx-o8R">
-                                        <rect key="frame" x="8" y="8" width="288" height="44"/>
+                                        <rect key="frame" x="8" y="8" width="382" height="44"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.097361508109999995" green="0.29944455710000001" blue="0.5615385812" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -1623,26 +1623,26 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                         <viewControllerLayoutGuide type="bottom" id="1AU-vp-1LO"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="vsQ-Fk-4Yg">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="venicebeach" translatesAutoresizingMaskIntoConstraints="NO" id="fje-WP-tFk">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="thh-US-g2v"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Venice Beach" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ETZ-jp-WDB">
-                                <rect key="frame" x="7.5" y="29.5" width="305.5" height="62"/>
+                                <rect key="frame" x="54.666666666666657" y="29.666666666666671" width="306" height="62"/>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="52"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qX1-pS-4BI" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="128" width="304" height="250"/>
+                                <rect key="frame" x="8" y="128" width="398" height="418"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="B0u-85-qtS">
-                                        <rect key="frame" x="8" y="8" width="288" height="234"/>
+                                        <rect key="frame" x="8" y="8" width="382" height="402"/>
                                         <string key="text">Venice Beach, which receives millions of visitors a year, has been labeled as "a cultural hub known for its eccentricities" as well as a "global tourist destination." It includes the promenade that runs parallel to the beach (also the "Ocean Front Walk" or just "the boardwalk"), Muscle Beach, the handball courts, the paddle tennis courts, Skate Dancing plaza, the numerous beach volleyball courts, the bike trail and the businesses on Ocean Front Walk.</string>
                                         <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
                                         <color key="textColor" red="0.2202966371" green="0.2202966371" blue="0.2202966371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1661,7 +1661,7 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RfM-pp-hvD" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="16" y="454" width="288" height="42"/>
+                                <rect key="frame" x="20" y="622" width="374" height="42"/>
                                 <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="pfM-67-o4f"/>
@@ -1681,10 +1681,10 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                                 </connections>
                             </button>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TSn-Ms-AI7" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="386" width="304" height="60"/>
+                                <rect key="frame" x="8" y="554" width="398" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address: 1800 Ocean Front Walk, Venice, CA 90291, USA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="maA-j7-yiJ">
-                                        <rect key="frame" x="8" y="8" width="288" height="44"/>
+                                        <rect key="frame" x="8" y="8" width="382" height="44"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.097361508109999995" green="0.29944455710000001" blue="0.5615385812" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -1737,26 +1737,26 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                         <viewControllerLayoutGuide type="bottom" id="dMu-AW-hhb"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="6fG-1a-0VL">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="museum" translatesAutoresizingMaskIntoConstraints="NO" id="BqU-Z8-HUy">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="p4W-bP-Ene"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Natural History Museum" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ON-q2-Qn3">
-                                <rect key="frame" x="8.5" y="44" width="303.5" height="33.5"/>
+                                <rect key="frame" x="55.666666666666657" y="44" width="303.33333333333337" height="33.666666666666671"/>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="28"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cBV-5X-5rt" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="128" width="304" height="250"/>
+                                <rect key="frame" x="8" y="128" width="398" height="418"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="DPp-fH-sCU">
-                                        <rect key="frame" x="8" y="8" width="288" height="234"/>
+                                        <rect key="frame" x="8" y="8" width="382" height="402"/>
                                         <string key="text">The Natural History Museum of Los Angeles County is the largest natural and historical museum in the western United States, Its collections include nearly 35 million specimens and artifacts and cover 4.5 billion years of history.</string>
                                         <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
                                         <color key="textColor" red="0.2202966371" green="0.2202966371" blue="0.2202966371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1775,7 +1775,7 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jO0-Aw-uv9" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="16" y="454" width="288" height="42"/>
+                                <rect key="frame" x="20" y="622" width="374" height="42"/>
                                 <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="rLb-Dl-Rc1"/>
@@ -1795,10 +1795,10 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                                 </connections>
                             </button>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vrv-IJ-s22" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="386" width="304" height="60"/>
+                                <rect key="frame" x="8" y="554" width="398" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address: 900 Exposition Blvd, Los Angeles, CA 90007, USA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Coz-ry-FxH">
-                                        <rect key="frame" x="8" y="8" width="288" height="44"/>
+                                        <rect key="frame" x="8" y="8" width="382" height="44"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.097361508109999995" green="0.29944455710000001" blue="0.5615385812" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -1851,26 +1851,26 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                         <viewControllerLayoutGuide type="bottom" id="MB6-jc-0C4"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="VDE-Nm-Bf7">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thebroad" translatesAutoresizingMaskIntoConstraints="NO" id="rN9-7R-VoO">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="lgt-oE-UCX"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Broad" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q3z-Vd-Lyg">
-                                <rect key="frame" x="44.5" y="29.5" width="232" height="62"/>
+                                <rect key="frame" x="91.666666666666686" y="29.666666666666671" width="232" height="62"/>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="52"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xup-hj-uDm" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="128" width="304" height="250"/>
+                                <rect key="frame" x="8" y="128" width="398" height="418"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="SS1-Kc-yoY">
-                                        <rect key="frame" x="8" y="8" width="288" height="234"/>
+                                        <rect key="frame" x="8" y="8" width="382" height="402"/>
                                         <string key="text">The Broad is a contemporary art museum on Grand Avenue in Downtown Los Angeles. The museum is named for philanthropist Eli Broad, who financed the $140 million building which houses the Broad art collections. The museum offers free general admission to its permanent collection galleries. It opened on September 20, 2015.</string>
                                         <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
                                         <color key="textColor" red="0.2202966371" green="0.2202966371" blue="0.2202966371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1889,7 +1889,7 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Hw-UD-U3e" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="16" y="454" width="288" height="42"/>
+                                <rect key="frame" x="20" y="622" width="374" height="42"/>
                                 <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="spp-QK-PuD"/>
@@ -1909,10 +1909,10 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                                 </connections>
                             </button>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rTy-T5-Gbj" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="386" width="304" height="60"/>
+                                <rect key="frame" x="8" y="554" width="398" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address: 221 S Grand Ave, Los Angeles, CA 90012, USA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fT5-1c-TWx">
-                                        <rect key="frame" x="8" y="8" width="288" height="44"/>
+                                        <rect key="frame" x="8" y="8" width="382" height="44"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.097361508109999995" green="0.29944455710000001" blue="0.5615385812" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -1965,28 +1965,28 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                         <viewControllerLayoutGuide type="bottom" id="tcz-eV-XBV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Itl-3L-iRJ">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="japanesemuseum" translatesAutoresizingMaskIntoConstraints="NO" id="lNC-oP-OV2">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="pyU-lj-i5z"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Japanese American National Museum" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="twf-nq-2A2">
-                                <rect key="frame" x="5" y="48.5" width="311" height="23"/>
+                                <rect key="frame" x="52" y="48.666666666666671" width="311" height="23.000000000000014"/>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="19"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pHL-Jf-4AR" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="128" width="304" height="250"/>
+                                <rect key="frame" x="8" y="128" width="398" height="418"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="FNX-Ju-aK2">
-                                        <rect key="frame" x="8" y="8" width="288" height="234"/>
-                                        <mutableString key="text">The Japanese American National Museum is a museum dedicated to preserving the history and culture of Japanese Americans. It is located in the Little Tokyo area near downtown Los Angeles, California. 
-The museum contains over 130 years of Japanese American history, dating back to the first Issei generation. It houses a moving image archive, which contains over 100,000 feet (30,000 m) of 16 mm and 8 mm home movies of Japanese Americans from the 1920s to the 1950s. It also contains artifacts, textiles, art, photographs, and oral histories of Japanese Americans. </mutableString>
+                                        <rect key="frame" x="8" y="8" width="382" height="402"/>
+                                        <string key="text">The Japanese American National Museum is a museum dedicated to preserving the history and culture of Japanese Americans. It is located in the Little Tokyo area near downtown Los Angeles, California. 
+The museum contains over 130 years of Japanese American history, dating back to the first Issei generation. It houses a moving image archive, which contains over 100,000 feet (30,000 m) of 16 mm and 8 mm home movies of Japanese Americans from the 1920s to the 1950s. It also contains artifacts, textiles, art, photographs, and oral histories of Japanese Americans. </string>
                                         <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
                                         <color key="textColor" red="0.2202966371" green="0.2202966371" blue="0.2202966371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -2004,7 +2004,7 @@ The museum contains over 130 years of Japanese American history, dating back to 
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ltG-tf-zZ4" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="16" y="454" width="288" height="42"/>
+                                <rect key="frame" x="20" y="622" width="374" height="42"/>
                                 <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="P8r-nG-mm6"/>
@@ -2024,10 +2024,10 @@ The museum contains over 130 years of Japanese American history, dating back to 
                                 </connections>
                             </button>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vgV-kz-geY" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="386" width="304" height="60"/>
+                                <rect key="frame" x="8" y="554" width="398" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address: 100 N Central Ave, Los Angeles, CA 90012, USA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zbi-0p-hpq">
-                                        <rect key="frame" x="8" y="8" width="288" height="44"/>
+                                        <rect key="frame" x="8" y="8" width="382" height="44"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.097361508109999995" green="0.29944455710000001" blue="0.5615385812" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -2080,26 +2080,26 @@ The museum contains over 130 years of Japanese American history, dating back to 
                         <viewControllerLayoutGuide type="bottom" id="eow-47-SjN"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="H5I-As-3yb">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="observatory" translatesAutoresizingMaskIntoConstraints="NO" id="Whn-cf-ytm">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="duU-Ur-UgZ"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Griffith Observatory" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qtk-jz-Fco">
-                                <rect key="frame" x="8.5" y="40" width="304" height="40.5"/>
+                                <rect key="frame" x="55.666666666666657" y="40" width="304" height="40.666666666666671"/>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="34"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pH6-Wq-5pg" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="128" width="304" height="250"/>
+                                <rect key="frame" x="8" y="128" width="398" height="418"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="WGw-Wa-4d8">
-                                        <rect key="frame" x="8" y="8" width="288" height="234"/>
+                                        <rect key="frame" x="8" y="8" width="382" height="402"/>
                                         <string key="text">Griffith Observatory is a facility in Los Angeles, California, sitting on the south-facing slope of Mount Hollywood in Los Angeles' Griffith Park. It commands a view of the Los Angeles Basin, including Downtown Los Angeles to the southeast, Hollywood to the south, and the Pacific Ocean to the southwest. The observatory is a popular tourist attraction with an excellent view of the Hollywood Sign, and an extensive array of space and science-related displays.</string>
                                         <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
                                         <color key="textColor" red="0.2202966371" green="0.2202966371" blue="0.2202966371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2118,7 +2118,7 @@ The museum contains over 130 years of Japanese American history, dating back to 
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oQp-KK-xP2" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="16" y="454" width="288" height="42"/>
+                                <rect key="frame" x="20" y="622" width="374" height="42"/>
                                 <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="s6E-oc-sa7"/>
@@ -2138,10 +2138,10 @@ The museum contains over 130 years of Japanese American history, dating back to 
                                 </connections>
                             </button>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iFk-xJ-uNp" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="386" width="304" height="60"/>
+                                <rect key="frame" x="8" y="554" width="398" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address: Griffith Park, 2800 E Observatory Rd, Los Angeles, CA 90027, USA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="5Fe-fS-vQ8">
-                                        <rect key="frame" x="8" y="8" width="288" height="44"/>
+                                        <rect key="frame" x="8" y="8" width="382" height="44"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.097361508109999995" green="0.29944455710000001" blue="0.5615385812" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -2194,26 +2194,26 @@ The museum contains over 130 years of Japanese American history, dating back to 
                         <viewControllerLayoutGuide type="bottom" id="yqB-8p-O2h"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="2yy-gk-bfu">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sciencecenter" translatesAutoresizingMaskIntoConstraints="NO" id="B7F-zA-eCp">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="1I8-Z3-NRR"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="California Science Center" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n6l-Ee-AW4">
-                                <rect key="frame" x="4" y="44" width="312.5" height="33.5"/>
+                                <rect key="frame" x="51" y="44" width="312.66666666666669" height="33.666666666666671"/>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="28"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0h3-HY-IoG" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="128" width="304" height="250"/>
+                                <rect key="frame" x="8" y="128" width="398" height="418"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="k2f-9S-TW8">
-                                        <rect key="frame" x="8" y="8" width="288" height="234"/>
+                                        <rect key="frame" x="8" y="8" width="382" height="402"/>
                                         <string key="text">The California Science Center (sometimes spelled California ScienCenter) is a state agency and museum located in Exposition Park, Los Angeles. Founded in 1951 as the "California Museum of Science and Industry", the Museum was remodeled and renamed in 1998 as the "California Science Center". Admission includes access to the permanent exhibits, such as the Space Shuttle Endeavour and other prominent aircraft and spacecraft, and to various demonstrations.</string>
                                         <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
                                         <color key="textColor" red="0.2202966371" green="0.2202966371" blue="0.2202966371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2232,7 +2232,7 @@ The museum contains over 130 years of Japanese American history, dating back to 
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcc-Eh-gZf" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="16" y="454" width="288" height="42"/>
+                                <rect key="frame" x="20" y="622" width="374" height="42"/>
                                 <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="Pta-Hm-GuB"/>
@@ -2252,10 +2252,10 @@ The museum contains over 130 years of Japanese American history, dating back to 
                                 </connections>
                             </button>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g5g-S6-GUa" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="386" width="304" height="60"/>
+                                <rect key="frame" x="8" y="554" width="398" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address: 700 Exposition Park Dr, Los Angeles, CA 90037, USA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="74k-CK-N8x">
-                                        <rect key="frame" x="8" y="8" width="288" height="44"/>
+                                        <rect key="frame" x="8" y="8" width="382" height="44"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.097361508109999995" green="0.29944455710000001" blue="0.5615385812" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -2308,26 +2308,26 @@ The museum contains over 130 years of Japanese American history, dating back to 
                         <viewControllerLayoutGuide type="bottom" id="6ji-gY-zeq"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Gfe-di-5ml">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="universal" translatesAutoresizingMaskIntoConstraints="NO" id="vOu-Pz-jJN">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="eiA-AK-q0g"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Universal Studios" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I1R-o8-F3a">
-                                <rect key="frame" x="5" y="36" width="311" height="49"/>
+                                <rect key="frame" x="52" y="36" width="311" height="49"/>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="41"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Iz-7b-TzK" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="128" width="304" height="250"/>
+                                <rect key="frame" x="8" y="128" width="398" height="418"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="BYW-TH-x75">
-                                        <rect key="frame" x="8" y="8" width="288" height="234"/>
+                                        <rect key="frame" x="8" y="8" width="382" height="402"/>
                                         <string key="text">Universal Studios Hollywood is a film studio and theme park in the Universal City county island area of the San Fernando Valley of Los Angeles County, California, United States. It is one of the oldest and most famous Hollywood film studios still in use. It was initially created to offer tours of the real Universal Studios sets and is the first of many full-fledged Universal Studios Theme Parks located across the world. Woody Woodpecker is the official mascot for Universal Studios Hollywood.</string>
                                         <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
                                         <color key="textColor" red="0.2202966371" green="0.2202966371" blue="0.2202966371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2346,7 +2346,7 @@ The museum contains over 130 years of Japanese American history, dating back to 
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BDv-8p-soa" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="16" y="454" width="288" height="42"/>
+                                <rect key="frame" x="20" y="622" width="374" height="42"/>
                                 <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="gs5-Oc-lwF"/>
@@ -2366,10 +2366,10 @@ The museum contains over 130 years of Japanese American history, dating back to 
                                 </connections>
                             </button>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hua-1L-bn0" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="386" width="304" height="60"/>
+                                <rect key="frame" x="8" y="554" width="398" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address: 100 Universal City Plaza, Universal City, CA 91608, USA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a3S-E4-qWC">
-                                        <rect key="frame" x="8" y="8" width="288" height="44"/>
+                                        <rect key="frame" x="8" y="8" width="382" height="44"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.097361508109999995" green="0.29944455710000001" blue="0.5615385812" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -2422,27 +2422,27 @@ The museum contains over 130 years of Japanese American history, dating back to 
                         <viewControllerLayoutGuide type="bottom" id="V2r-fC-LHW"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="NLW-iE-1fG">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="walk" translatesAutoresizingMaskIntoConstraints="NO" id="x05-BL-3PQ">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="978-m8-TRK"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Walk of Fame" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KBV-K0-UIS">
-                                <rect key="frame" x="8.5" y="29.5" width="303.5" height="61"/>
+                                <rect key="frame" x="55.666666666666657" y="29.666666666666671" width="303.33333333333337" height="61"/>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="51"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cPO-Me-r4F" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="128" width="304" height="250"/>
+                                <rect key="frame" x="8" y="128" width="398" height="418"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="MFS-Vt-mp9">
-                                        <rect key="frame" x="8" y="8" width="288" height="234"/>
-                                        <mutableString key="text">The Hollywood Walk of Fame comprises more than 2,600 five-pointed terrazzo and brass stars embedded in the sidewalks along 15 blocks of Hollywood Boulevard and three blocks of Vine Street in Hollywood, California. The stars are permanent public monuments to achievement in the entertainment industry, bearing the names of a mix of actors, musicians, directors, producers, musical and theatrical groups, fictional characters, and others. It is a popular tourist destination, with a reported 10 million visitors per year.</mutableString>
+                                        <rect key="frame" x="8" y="8" width="382" height="402"/>
+                                        <string key="text">The Hollywood Walk of Fame comprises more than 2,600 five-pointed terrazzo and brass stars embedded in the sidewalks along 15 blocks of Hollywood Boulevard and three blocks of Vine Street in Hollywood, California. The stars are permanent public monuments to achievement in the entertainment industry, bearing the names of a mix of actors, musicians, directors, producers, musical and theatrical groups, fictional characters, and others. It is a popular tourist destination, with a reported 10 million visitors per year.</string>
                                         <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
                                         <color key="textColor" red="0.2202966371" green="0.2202966371" blue="0.2202966371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -2460,7 +2460,7 @@ The museum contains over 130 years of Japanese American history, dating back to 
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vZh-iN-kqw" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="16" y="454" width="288" height="42"/>
+                                <rect key="frame" x="20" y="622" width="374" height="42"/>
                                 <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="FRB-BP-gzB"/>
@@ -2480,10 +2480,10 @@ The museum contains over 130 years of Japanese American history, dating back to 
                                 </connections>
                             </button>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lEJ-zq-CBQ" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="386" width="304" height="60"/>
+                                <rect key="frame" x="8" y="554" width="398" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address: 6255 Sunset Blvd #150, Hollywood, CA 90028, USA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nfq-OR-hPT">
-                                        <rect key="frame" x="8" y="8" width="288" height="44"/>
+                                        <rect key="frame" x="8" y="8" width="382" height="44"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.097361508109999995" green="0.29944455710000001" blue="0.5615385812" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -2536,26 +2536,26 @@ The museum contains over 130 years of Japanese American history, dating back to 
                         <viewControllerLayoutGuide type="bottom" id="s1I-Je-YGH"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="FA9-Gd-lny">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hollywood" translatesAutoresizingMaskIntoConstraints="NO" id="cle-Xw-vnj">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="OAf-Rv-PDE"/>
                                 </constraints>
                             </imageView>
                             <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vnv-GV-0aC">
-                                <rect key="frame" x="160.5" y="60" width="0.0" height="0.0"/>
+                                <rect key="frame" x="207.66666666666666" y="60" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="45"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="odt-pu-8K5" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="128" width="304" height="250"/>
+                                <rect key="frame" x="8" y="128" width="398" height="418"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="6EI-UU-g0E">
-                                        <rect key="frame" x="8" y="8" width="288" height="234"/>
+                                        <rect key="frame" x="8" y="8" width="382" height="402"/>
                                         <string key="text">The Hollywood Sign is a landmark and American cultural icon located in Los Angeles, California. It is situated on Mount Lee, in the Hollywood Hills area of the Santa Monica Mountains. The sign overlooks Hollywood, Los Angeles.
 "HOLLYWOOD" is spelled out in 45-foot (13.7 m)-tall white capital letters and is 350 feet (106.7 m) long. It was originally created in 1923 as an advertisement for a local real estate development, but it garnered increasing recognition after the sign was left up.</string>
                                         <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
@@ -2575,7 +2575,7 @@ The museum contains over 130 years of Japanese American history, dating back to 
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1CW-f1-XSE" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="16" y="454" width="288" height="42"/>
+                                <rect key="frame" x="20" y="622" width="374" height="42"/>
                                 <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="mZ0-fx-R6S"/>
@@ -2595,10 +2595,10 @@ The museum contains over 130 years of Japanese American history, dating back to 
                                 </connections>
                             </button>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h4L-9f-8ca" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="386" width="304" height="60"/>
+                                <rect key="frame" x="8" y="554" width="398" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address: Griffith Park, Los Angeles, CA 90068, USA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eJT-Pe-G1Y">
-                                        <rect key="frame" x="8" y="8" width="288" height="44"/>
+                                        <rect key="frame" x="8" y="8" width="382" height="44"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.097361508109999995" green="0.29944455710000001" blue="0.5615385812" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -2651,26 +2651,26 @@ The museum contains over 130 years of Japanese American history, dating back to 
                         <viewControllerLayoutGuide type="bottom" id="pq9-BB-jRP"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Zkn-WV-n1y">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="grauman" translatesAutoresizingMaskIntoConstraints="NO" id="NiQ-0S-vdp">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="G8z-iT-lSz"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Grauman's Chinese Theatre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hyt-br-9iq">
-                                <rect key="frame" x="4.5" y="44.5" width="312" height="31"/>
+                                <rect key="frame" x="51.666666666666657" y="44.666666666666671" width="312" height="31.000000000000014"/>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="26"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a4G-Ii-o2l" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="128" width="304" height="250"/>
+                                <rect key="frame" x="8" y="128" width="398" height="418"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="WRk-Ap-clZ">
-                                        <rect key="frame" x="8" y="8" width="288" height="234"/>
+                                        <rect key="frame" x="8" y="8" width="382" height="402"/>
                                         <string key="text">Grauman's Chinese Theatre, known under naming rights as TCL Chinese Theatre, is a movie palace on the historic Hollywood Walk of Fame. In 2013 the Chinese Theatre partnered with IMAX Corporation to convert the house into a custom designed IMAX theater. The newly renovated theater seats 932 people and features one of the largest movie screens in North America.</string>
                                         <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
                                         <color key="textColor" red="0.2202966371" green="0.2202966371" blue="0.2202966371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2689,7 +2689,7 @@ The museum contains over 130 years of Japanese American history, dating back to 
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kWY-8v-uwl" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="16" y="454" width="288" height="42"/>
+                                <rect key="frame" x="20" y="622" width="374" height="42"/>
                                 <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="3ty-FZ-ISn"/>
@@ -2709,10 +2709,10 @@ The museum contains over 130 years of Japanese American history, dating back to 
                                 </connections>
                             </button>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dvT-Lz-Kfq" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="386" width="304" height="60"/>
+                                <rect key="frame" x="8" y="554" width="398" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address: Hollywood &amp; Highland, 6925 Hollywood Blvd, Hollywood, CA 90028, USA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ZRd-85-xuv">
-                                        <rect key="frame" x="8" y="8" width="288" height="44"/>
+                                        <rect key="frame" x="8" y="8" width="382" height="44"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.097361508109999995" green="0.29944455710000001" blue="0.5615385812" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -2765,26 +2765,26 @@ The museum contains over 130 years of Japanese American history, dating back to 
                         <viewControllerLayoutGuide type="bottom" id="iqN-g2-ATN"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="K0K-sj-2ch">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beverly" translatesAutoresizingMaskIntoConstraints="NO" id="Q2l-Fa-Bdb">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="2x7-kV-Aph"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beverly Hills" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ygX-00-p7x">
-                                <rect key="frame" x="16" y="29.5" width="288.5" height="62"/>
+                                <rect key="frame" x="63" y="29.666666666666671" width="288.66666666666669" height="62"/>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="52"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V7S-vh-GgU" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="128" width="304" height="250"/>
+                                <rect key="frame" x="8" y="128" width="398" height="418"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="DSp-6s-qH2">
-                                        <rect key="frame" x="8" y="8" width="288" height="234"/>
+                                        <rect key="frame" x="8" y="8" width="382" height="402"/>
                                         <string key="text">Beverly Hills is a city in Los Angeles County, California, United States, surrounded by the cities of Los Angeles and West Hollywood. Originally a Spanish ranch where lima beans were grown, Beverly Hills was incorporated in 1914 by a group of investors who had failed to find oil, but found water instead and eventually decided to develop it into a town.</string>
                                         <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
                                         <color key="textColor" red="0.2202966371" green="0.2202966371" blue="0.2202966371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2803,7 +2803,7 @@ The museum contains over 130 years of Japanese American history, dating back to 
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O5z-Je-M0p" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="16" y="454" width="288" height="42"/>
+                                <rect key="frame" x="20" y="622" width="374" height="42"/>
                                 <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="jtq-Yd-wRU"/>
@@ -2823,10 +2823,10 @@ The museum contains over 130 years of Japanese American history, dating back to 
                                 </connections>
                             </button>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AYY-lj-owv" customClass="RoundedView" customModule="losAngelesPlaces" customModuleProvider="target">
-                                <rect key="frame" x="8" y="386" width="304" height="60"/>
+                                <rect key="frame" x="8" y="554" width="398" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address: Beverly Hills, CA 92323, USA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hoq-8i-W3h">
-                                        <rect key="frame" x="8" y="8" width="288" height="44"/>
+                                        <rect key="frame" x="8" y="8" width="382" height="44"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.097361508109999995" green="0.29944455710000001" blue="0.5615385812" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
