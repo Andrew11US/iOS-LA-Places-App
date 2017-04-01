@@ -22,13 +22,13 @@
                         <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LA Places" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xYc-qZ-4vx">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LA Places" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="xYc-qZ-4vx">
                                 <rect key="frame" x="20" y="8" width="374" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="toQ-cG-1Kq"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="60"/>
-                                <color key="textColor" red="0.12549019607843137" green="0.37254901960784315" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="60"/>
+                                <color key="textColor" red="1" green="0.090196078431372548" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="H0i-vH-VQP">
@@ -130,10 +130,10 @@
                         <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="TRW-DV-b4E">
+                            <stackView opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="TRW-DV-b4E">
                                 <rect key="frame" x="28" y="20" width="358" height="632"/>
                                 <subviews>
-                                    <button opaque="NO" clipsSubviews="YES" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B5N-OD-yOL" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B5N-OD-yOL" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="358" height="114.33333333333334"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
@@ -147,7 +147,7 @@
                                             <segue destination="7hd-aG-L2u" kind="show" id="znJ-ok-dCF"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" clipsSubviews="YES" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Obk-Yx-WMu" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Obk-Yx-WMu" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="129.33333333333331" width="358" height="114.33333333333334"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="23"/>
@@ -163,7 +163,7 @@
                                             <segue destination="EXB-mr-8Lq" kind="show" id="MIy-EV-nVm"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" clipsSubviews="YES" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u69-fw-6g7" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u69-fw-6g7" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="258.66666666666669" width="358" height="114.66666666666663"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
@@ -179,7 +179,7 @@
                                             <segue destination="bfc-ae-gLh" kind="show" id="gEi-0e-8uK"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" clipsSubviews="YES" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OpX-IX-jPA" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OpX-IX-jPA" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="388.33333333333337" width="358" height="114.33333333333331"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
@@ -195,7 +195,7 @@
                                             <segue destination="JBW-JX-jcW" kind="show" id="fWa-KL-Rlo"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" clipsSubviews="YES" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jq-kd-WUc" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jq-kd-WUc" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="517.66666666666652" width="358" height="114.33333333333337"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
@@ -276,7 +276,7 @@
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TPa-cP-JsL" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                 <rect key="frame" x="20" y="622" width="374" height="42"/>
-                                <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.090196078430000007" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="50W-Km-Rm0"/>
                                 </constraints>
@@ -288,7 +288,6 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="16"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="openMap:" destination="7hd-aG-L2u" eventType="touchUpInside" id="Uig-qd-WgQ"/>
@@ -354,10 +353,10 @@
                         <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Mln-6m-7wb">
+                            <stackView opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Mln-6m-7wb">
                                 <rect key="frame" x="28" y="20" width="358" height="632"/>
                                 <subviews>
-                                    <button opaque="NO" clipsSubviews="YES" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BCL-E2-GXD" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BCL-E2-GXD" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="358" height="114.33333333333334"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
@@ -373,7 +372,7 @@
                                             <segue destination="a4c-Sx-cDX" kind="show" id="Fmi-n9-bFW"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" clipsSubviews="YES" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iGX-gw-AKO" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iGX-gw-AKO" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="129.33333333333331" width="358" height="114.33333333333334"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
@@ -389,7 +388,7 @@
                                             <segue destination="kVA-MC-czl" kind="show" id="g8B-bl-XCc"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" clipsSubviews="YES" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cPr-rH-M4C" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cPr-rH-M4C" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="258.66666666666669" width="358" height="114.66666666666663"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
@@ -405,7 +404,7 @@
                                             <segue destination="WUW-fa-iZw" kind="show" id="oxw-pK-lUN"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" clipsSubviews="YES" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Szo-kd-oiO" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Szo-kd-oiO" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="388.33333333333337" width="358" height="114.33333333333331"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="31"/>
@@ -421,7 +420,7 @@
                                             <segue destination="Z2f-do-y0k" kind="show" id="1cE-vb-NBg"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" clipsSubviews="YES" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Va-qe-8cw" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Va-qe-8cw" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="517.66666666666652" width="358" height="114.33333333333337"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
@@ -466,10 +465,10 @@
                         <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="0aF-CN-iVD">
+                            <stackView opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="0aF-CN-iVD">
                                 <rect key="frame" x="28" y="20" width="358" height="632"/>
                                 <subviews>
-                                    <button opaque="NO" clipsSubviews="YES" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RWj-zH-KfN" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RWj-zH-KfN" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="358" height="114.33333333333334"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="23"/>
@@ -485,7 +484,7 @@
                                             <segue destination="maQ-Zn-z0e" kind="show" id="8gW-dI-lds"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" clipsSubviews="YES" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vCD-yT-c9g" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vCD-yT-c9g" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="129.33333333333331" width="358" height="114.33333333333334"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
@@ -501,7 +500,7 @@
                                             <segue destination="Syg-As-6uV" kind="show" id="QQ2-u3-HAe"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" clipsSubviews="YES" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="18w-pB-ZgF" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="18w-pB-ZgF" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="258.66666666666669" width="358" height="114.66666666666663"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="16"/>
@@ -517,7 +516,7 @@
                                             <segue destination="UPf-rM-HOM" kind="show" id="IvJ-SY-zP7"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" clipsSubviews="YES" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F3M-hU-HiC" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F3M-hU-HiC" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="388.33333333333337" width="358" height="114.33333333333331"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="29"/>
@@ -533,7 +532,7 @@
                                             <segue destination="kt1-L1-jpY" kind="show" id="ijb-sq-TaI"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" clipsSubviews="YES" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ddj-wo-hks" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ddj-wo-hks" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="517.66666666666652" width="358" height="114.33333333333337"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="23"/>
@@ -578,10 +577,10 @@
                         <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="8MA-5U-lku">
+                            <stackView opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="8MA-5U-lku">
                                 <rect key="frame" x="28" y="20" width="358" height="632"/>
                                 <subviews>
-                                    <button opaque="NO" clipsSubviews="YES" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EVh-Fw-ioT" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EVh-Fw-ioT" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="358" height="114.33333333333334"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
@@ -597,7 +596,7 @@
                                             <segue destination="WEK-YO-AnY" kind="show" id="1Xh-gP-AB5"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" clipsSubviews="YES" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dJi-HP-wzg" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dJi-HP-wzg" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="129.33333333333331" width="358" height="114.33333333333334"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
@@ -613,7 +612,7 @@
                                             <segue destination="crl-mr-fRc" kind="show" id="Iaa-pf-iR1"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" clipsSubviews="YES" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6GG-yg-4bE" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6GG-yg-4bE" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="258.66666666666669" width="358" height="114.66666666666663"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
@@ -629,7 +628,7 @@
                                             <segue destination="lm0-vm-7Su" kind="show" id="t8I-mF-DCl"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" clipsSubviews="YES" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T32-6X-eLa" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T32-6X-eLa" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="388.33333333333337" width="358" height="114.33333333333331"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="21"/>
@@ -645,7 +644,7 @@
                                             <segue destination="FrR-wK-nKf" kind="show" id="iij-Zj-yCQ"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" clipsSubviews="YES" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hPO-Z4-Ndd" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hPO-Z4-Ndd" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="517.66666666666652" width="358" height="114.33333333333337"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
@@ -687,7 +686,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <color key="barTintColor" red="0.12549019607843137" green="0.37254901960784315" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="1" green="0.090196078431372548" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         </textAttributes>
@@ -750,7 +749,7 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="27s-aM-2G6" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                 <rect key="frame" x="20" y="622" width="374" height="42"/>
-                                <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.090196078430000007" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="Ka3-ja-NdG"/>
                                 </constraints>
@@ -762,7 +761,6 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="16"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="openMap:" destination="EXB-mr-8Lq" eventType="touchUpInside" id="wG0-tE-ANX"/>
@@ -864,7 +862,7 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DOv-AE-LLY" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                 <rect key="frame" x="20" y="622" width="374" height="42"/>
-                                <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.090196078430000007" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="pid-6X-vYu"/>
                                 </constraints>
@@ -876,7 +874,6 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="16"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="openMap:" destination="bfc-ae-gLh" eventType="touchUpInside" id="84U-7r-imI"/>
@@ -978,7 +975,7 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I2O-iA-euD" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                 <rect key="frame" x="20" y="622" width="374" height="42"/>
-                                <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.090196078430000007" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="dgH-qO-cYp"/>
                                 </constraints>
@@ -990,7 +987,6 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="16"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="openMap:" destination="JBW-JX-jcW" eventType="touchUpInside" id="ajA-Rf-7iA"/>
@@ -1092,7 +1088,7 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wg8-YN-Z8h" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                 <rect key="frame" x="20" y="622" width="374" height="42"/>
-                                <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.090196078430000007" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="xTR-Cl-eVt"/>
                                 </constraints>
@@ -1104,7 +1100,6 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="16"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="openMap:" destination="ys0-tJ-ffP" eventType="touchUpInside" id="792-bS-ovx"/>
@@ -1206,7 +1201,7 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dXH-km-bIa" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                 <rect key="frame" x="20" y="622" width="374" height="42"/>
-                                <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.090196078430000007" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="aOd-9x-gdr"/>
                                 </constraints>
@@ -1218,7 +1213,6 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="16"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="openMap:" destination="a4c-Sx-cDX" eventType="touchUpInside" id="yil-Fs-Gd6"/>
@@ -1320,7 +1314,7 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vdw-XA-Qea" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                 <rect key="frame" x="20" y="622" width="374" height="42"/>
-                                <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.090196078430000007" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="kD0-Ew-RRo"/>
                                 </constraints>
@@ -1332,7 +1326,6 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="16"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="openMap:" destination="kVA-MC-czl" eventType="touchUpInside" id="8mn-hV-Oke"/>
@@ -1434,7 +1427,7 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zK5-ra-nX2" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                 <rect key="frame" x="20" y="622" width="374" height="42"/>
-                                <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.090196078430000007" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="nDn-ad-bb0"/>
                                 </constraints>
@@ -1446,7 +1439,6 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="16"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="openMap:" destination="WUW-fa-iZw" eventType="touchUpInside" id="A3K-ad-xIr"/>
@@ -1548,7 +1540,7 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ooI-uZ-kIJ" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                 <rect key="frame" x="20" y="622" width="374" height="42"/>
-                                <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.090196078430000007" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="VCc-6B-0Pu"/>
                                 </constraints>
@@ -1560,7 +1552,6 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="16"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="openMap:" destination="Z2f-do-y0k" eventType="touchUpInside" id="vbp-FS-iZI"/>
@@ -1662,7 +1653,7 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RfM-pp-hvD" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                 <rect key="frame" x="20" y="622" width="374" height="42"/>
-                                <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.090196078430000007" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="pfM-67-o4f"/>
                                 </constraints>
@@ -1674,7 +1665,6 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="16"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="openMap:" destination="yrs-N7-c9v" eventType="touchUpInside" id="2EH-iQ-gbQ"/>
@@ -1776,7 +1766,7 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jO0-Aw-uv9" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                 <rect key="frame" x="20" y="622" width="374" height="42"/>
-                                <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.090196078430000007" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="rLb-Dl-Rc1"/>
                                 </constraints>
@@ -1788,7 +1778,6 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="16"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="openMap:" destination="maQ-Zn-z0e" eventType="touchUpInside" id="Ql5-Hf-D8r"/>
@@ -1890,7 +1879,7 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Hw-UD-U3e" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                 <rect key="frame" x="20" y="622" width="374" height="42"/>
-                                <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.090196078430000007" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="spp-QK-PuD"/>
                                 </constraints>
@@ -1902,7 +1891,6 @@ From the stainless steel curves of its striking exterior to the state-of-the-art
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="16"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="openMap:" destination="Syg-As-6uV" eventType="touchUpInside" id="dFy-40-yxz"/>
@@ -2005,7 +1993,7 @@ The museum contains over 130 years of Japanese American history, dating back to 
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ltG-tf-zZ4" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                 <rect key="frame" x="20" y="622" width="374" height="42"/>
-                                <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.090196078430000007" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="P8r-nG-mm6"/>
                                 </constraints>
@@ -2017,7 +2005,6 @@ The museum contains over 130 years of Japanese American history, dating back to 
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="16"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="openMap:" destination="UPf-rM-HOM" eventType="touchUpInside" id="3aC-UR-Aij"/>
@@ -2119,7 +2106,7 @@ The museum contains over 130 years of Japanese American history, dating back to 
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oQp-KK-xP2" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                 <rect key="frame" x="20" y="622" width="374" height="42"/>
-                                <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.090196078430000007" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="s6E-oc-sa7"/>
                                 </constraints>
@@ -2131,7 +2118,6 @@ The museum contains over 130 years of Japanese American history, dating back to 
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="16"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="openMap:" destination="kt1-L1-jpY" eventType="touchUpInside" id="KOU-Xe-g4W"/>
@@ -2233,7 +2219,7 @@ The museum contains over 130 years of Japanese American history, dating back to 
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcc-Eh-gZf" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                 <rect key="frame" x="20" y="622" width="374" height="42"/>
-                                <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.090196078430000007" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="Pta-Hm-GuB"/>
                                 </constraints>
@@ -2245,7 +2231,6 @@ The museum contains over 130 years of Japanese American history, dating back to 
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="16"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="openMap:" destination="eaj-dd-Cwd" eventType="touchUpInside" id="k3Q-bF-hUa"/>
@@ -2347,7 +2332,7 @@ The museum contains over 130 years of Japanese American history, dating back to 
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BDv-8p-soa" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                 <rect key="frame" x="20" y="622" width="374" height="42"/>
-                                <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.090196078430000007" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="gs5-Oc-lwF"/>
                                 </constraints>
@@ -2359,7 +2344,6 @@ The museum contains over 130 years of Japanese American history, dating back to 
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="16"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="openMap:" destination="WEK-YO-AnY" eventType="touchUpInside" id="iB7-zK-oLn"/>
@@ -2461,7 +2445,7 @@ The museum contains over 130 years of Japanese American history, dating back to 
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vZh-iN-kqw" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                 <rect key="frame" x="20" y="622" width="374" height="42"/>
-                                <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.090196078430000007" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="FRB-BP-gzB"/>
                                 </constraints>
@@ -2473,7 +2457,6 @@ The museum contains over 130 years of Japanese American history, dating back to 
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="16"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="openMap:" destination="crl-mr-fRc" eventType="touchUpInside" id="jpt-BP-ikC"/>
@@ -2576,7 +2559,7 @@ The museum contains over 130 years of Japanese American history, dating back to 
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1CW-f1-XSE" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                 <rect key="frame" x="20" y="622" width="374" height="42"/>
-                                <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.090196078430000007" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="mZ0-fx-R6S"/>
                                 </constraints>
@@ -2588,7 +2571,6 @@ The museum contains over 130 years of Japanese American history, dating back to 
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="16"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="openMap:" destination="lm0-vm-7Su" eventType="touchUpInside" id="jEb-Kr-bGa"/>
@@ -2690,7 +2672,7 @@ The museum contains over 130 years of Japanese American history, dating back to 
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kWY-8v-uwl" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                 <rect key="frame" x="20" y="622" width="374" height="42"/>
-                                <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.090196078430000007" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="3ty-FZ-ISn"/>
                                 </constraints>
@@ -2702,7 +2684,6 @@ The museum contains over 130 years of Japanese American history, dating back to 
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="16"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="openMap:" destination="FrR-wK-nKf" eventType="touchUpInside" id="YqK-Io-AtF"/>
@@ -2804,7 +2785,7 @@ The museum contains over 130 years of Japanese American history, dating back to 
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O5z-Je-M0p" customClass="CustomButton" customModule="losAngelesPlaces" customModuleProvider="target">
                                 <rect key="frame" x="20" y="622" width="374" height="42"/>
-                                <color key="backgroundColor" red="0.12549019610000001" green="0.37254901959999998" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.090196078430000007" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="jtq-Yd-wRU"/>
                                 </constraints>
@@ -2816,7 +2797,6 @@ The museum contains over 130 years of Japanese American history, dating back to 
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="16"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="openMap:" destination="yQI-OF-Jlb" eventType="touchUpInside" id="69D-d5-hD6"/>
