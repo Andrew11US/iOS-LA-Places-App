@@ -183,7 +183,7 @@
                                         <rect key="frame" x="0.0" y="388.33333333333337" width="358" height="114.33333333333331"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
-                                        <state key="normal" title="Dowmtown" backgroundImage="downtown">
+                                        <state key="normal" title="Downtown" backgroundImage="downtown">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
